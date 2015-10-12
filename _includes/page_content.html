@@ -1,0 +1,103 @@
+
+
+<!-- Page Content -->
+{% for post in site.posts reversed %}
+{% if post.category == 'Services' %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-7">
+                    
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    {{ post.description }}
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-5">
+                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-6">
+                    "<span style="color:#f64100;">{{post.quote}}</span>"
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="text-align:right;">
+                    &mdash; {{post.name}}, {{post.company}}
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6  col-sm-push-6  col-sm-7">
+                    
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ post.title }}</h2>
+                    {{ post.description }}
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-5">
+                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6">
+                    "<span style="color:#f64100;">{{post.quote}}</span>"
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6" style="text-align:right;">
+                    &mdash; {{post.name}}, {{post.company}}
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    {% endif %}
+    {% endif %}
+{% endfor %}
+
+<div style="text-align:center;">
+    <div class="row" style="color:white;background:#333333;">
+        <h3 style="margin-top:-3px;padding-top:12px;">Our Clients</h3>
+    </div>
+</div>
+<div class="container" style="text-align:center;">
+    <div class="row" style="margin-top:50px;text-align:center;">
+        <div class="col-md-2 col-md-offset-1">
+            <img src="/img/encore.png" width="100%" style="position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);"/>
+        </div>
+        <div class="col-md-2">
+            <img src="/img/epminerals.jpg" width="100%" style="position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);"/>
+        </div>
+        <div class="col-md-2">
+            <img src="/img/jaxon.png" width="100%" style="position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);"/>
+        </div>
+        <div class="col-md-2">
+            <img src="/img/fpa.png" width="100%" style="position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);"/>
+        </div>
+        <div class="col-md-2">
+            <img src="/img/sunopta.png" width="100%" style="position: relative;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);"/>
+        </div>
+    </div>
+
+</div>
+
+
+

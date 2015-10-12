@@ -1,0 +1,17 @@
+---
+layout: default
+img: phones.png
+category: Services
+title: Manufacturing Intelligence
+description: |
+  <p class="lead">Make <b style="color:#f64100;">smart</b> decisions about your process
+  by turning data into <b style="color:#f64100;">useful information</b>.<br />
+  <br /> <a target="_blank" href="http://corsosystems.com/mes">Manufacturing Execution Systems (MES)</a> integrate manufacturing and business operations enabling you to directly
+  correlate things like energy usage, inventory, and quality to real-time process
+  conditions. Using this information allows you to fully <b style="color:#f64100;">understand</b> your processes and
+  how they can be <b style="color:#f64100;">optimized</b> to reach their highest potential.</p>
+quote: The MES system and custom solutions Corso Systems built for our facilities will be paying dividends for years to come.
+name: Process Engineer
+company: EP Minerals
+
+---

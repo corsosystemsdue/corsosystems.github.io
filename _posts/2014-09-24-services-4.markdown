@@ -1,0 +1,12 @@
+---
+layout: default
+img: ipad.png
+category: Services
+title: Connect Your Enterprise
+description: |
+  <p class="lead">Optimizing outcomes at the plant level is only the <b style="color:#f64100;">first step</b>. <br/><br/> Connecting all of your shop floors to the top floor gives you the ability to reach your full potential. Once connected, every level of your organization will have access to information necessary to make the <b style="color:#f64100">best decisions</b> possible &mdash; for the <b style="color:#f64100;">entire organization</b>.</p>
+quote: We spent time with other companies who couldn't meet our needs. Corso Systems rose to the challenge, connected all of our systems and gave us the foundation for future growth.
+name: Director of Operations
+company: Irrigation System OEM
+
+---

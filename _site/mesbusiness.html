@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MES/MOM Systems</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/messtyle.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		  <!-- start-smoth-scrolling-->
+   		  <link rel="shortcut icon" href="img/favicon.png">
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1500);
+				});
+			});
+		</script>
+		 <!---start-smoth-scrolling-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script> 
+		<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!--//End-top-nav-script-->
+
+	</head>
+	<body>
+		<div id="top" class="bg">
+		<!--- start-header-->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="http://corsosystems.com/"><img src="img/logowhitesmall.png" title="Dasiy" width="40px;" /></a>
+						</div>
+						<!--start-top-nav-->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#about" class="scroll">About</a></li>
+								<li class="active"><a href="#port" class="scroll">Technology</a></li>
+								<li><a href="#wedo" class="scroll">What We Do</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="img/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!--- //End-header-->
+			<!-- header-info -->
+			<div class="header-info text-center">
+				<div class="container">
+					<h1><span> </span><label>MES</label> Driving Your Business<span> </span></h1>
+					<p>Get the most out of your process.</p>
+					<a class="big-btn" href="http://corsosystems.com/mes">Learn More</a>
+					<a class="down-arrow down-arrow-to scroll" href="#about"><span> </span></a>
+					<label class="mouse-divice"> </label>
+				</div>
+			</div>
+			</div> 
+			<div class="clearfix"> </div>
+			<!--header-info->
+
+			<!- about-us -->
+			<div id="about" class="about">
+				<div class="container">
+					<div class="about-head text-center">
+						<h3>What Are <span> The Benefits Of MES?</span></h3>
+						<p>Take advantage of the information you already have.</p>
+					</div>
+					<!--- about-grids -->
+					<div class="about-grids">
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon1"> </span>
+								<h3>Less Downtime<br /><label> </label></h3>
+								<p>Identify bottlenecks in your process and eliminate them before they become an issue. <br/><br/>MES software helps you stay running longer and more efficiently.</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon3"> </span>
+								<h3>More Productivity<br /><label> </label></h3>
+								<p>Work smarter with integrated information such as recipe management, energy management, work order management, and much more into your existing process.</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon2"> </span>
+								<h3>Higher OEE<br /><label> </label></h3>
+								<p>Track and improve the efficiency, performance, and quality of your process by scheduling smarter. Software does the heavy lifting for you, monitoring every aspect of your work-flow with detailed insight about your processes' health.</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon4"> </span>
+								<h3>Integration<br /><label> </label></h3>
+								<p>Integrate your ERP system to get the information you need to make the best decisions. <br/><br/>MES systems give you the right information, in the right format, at the right time.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- about-grids -->
+				</div>
+				<a class="about-down-icon down-arrow-to scroll" href="#expand"><span> </span></a>
+			</div>
+			<!--- about-us -->
+
+					
+			<!-- We Do -->
+
+			<div id="wedo" class="wedo">
+				<div class="container">
+					<div class="about-head text-center">
+						<h3>Empower With <span>Data</span></h3>
+						<p>MES/MOM Systems can integrate with any existing infrastructure to tell the story of your process. </p>
+					</div>
+					<div class="process-grid text-center">
+						<img src="img/datapic.png" width="500px;" title="process" />
+						<a class="p-down-arrow down-arrow-to scroll" href="#wedo"><span> </span></a>
+					</div>
+				</div>
+			</div>
+
+			<!--- we do -->
+
+			<!--- process -->
+
+			<div id="process" class="process">
+				<div class="container">
+					<div class="marketing-grids">
+						<div class="col-md-6 marketing-left text-left">
+							<h4><label> </label>Smarter Decision Making</h4>
+							<p>Utilizing MES/MOM software enables you to understand and control your entire operation from one interface. Start by aggregating all of your mission critical data and displaying it in a way that makes sense to you. Data tells you the story of your business and helps you to make smarter decisions. Run longer and produce more, higher-quality, products. </p>
+							<a class="wedobtn" href="http://corsosystems.com/mes">More details</a>
+						</div>
+						<div class="col-md-6 marketing-right">
+							<img src="img/largedata.jpg" width="600px;" title="marketing" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<a class="mr-down-arrow down-arrow-to scroll" href="#port"><span></span></a>
+				</div>
+
+
+			</div>
+
+			<!---//process ->
+	
+
+			<!- Decision Making -->
+
+			<div id="marketing" class="marketing">
+				<div class="container">
+					<div class="wedo-head text-center">
+						<h3>Where do <span>we come in?</span></h3>
+					</div>
+					<!--- wedo-grids -->
+					<div class="wedo-grids">
+						<div class="col-md-6 wedo-left">
+							<h4><label> </label>Building Tools To Drive Results</h4>
+							<p>Corso Systems specializes in building tools to integrate with your current process and infrastructure. Through our experience in various manufacturing industries, we work to give everyone on your team a better grasp on your processes as whole. Whether it's reducing downtime, automating tasks, or tying your systems together utilize data, Corso Systems facilitates the process of taking the data you have and turning it into information you can use. </p>
+							<a class="wedobtn" href="http://corsosystems.com/mes">More details</a>
+						</div>
+						<div class="col-md-6 wedo-right">
+							<img src="img/trend.png" width="600px;" title="demo" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- wedo-grids -->
+					<a class="w-down-arrow down-arrow-to scroll" href="#advertising"><span> </span></a>
+				</div>
+			</div>
+
+			<!--- //marketing -->
+
+				<!--- Call to Action -->
+
+			<div id="process" class="process">
+				<div class="container">
+					<div class="about-head text-center">
+						<h3>Learn <span>More</span></h3>
+						<p>Take the next step in driving your business to success by educating yourself on the possibilities of a fully integrated operation.</p>
+					</div>
+					<div class="process-grid text-center">
+						<a class="btn btn-default" href="http://corsosystems.com/mes" role="button">Learn More</a>
+						<a class="btn btn-default" href="http://corsosystems.com/white_papers.html" role="button">White Papers</a>
+						<a class="btn btn-default" href="http://corsosystems.com/contact	" role="button">Contact Us</a>
+					</div>
+				</div>
+			</div>
+
+			<!---Call to Action --> 
+
+<footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 animated hiding" data-animation="fadeInUp">
+            <ul class="social list-inline ">
+              <li>
+                <a class="facebook" href="http://www.facebook.com" title="Facebook">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="twitter" href="http://www.twitter.com" title="Twitter">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="google-plus" href="http://www.plus.google.com" title="Google+">
+                  <i class="fa fa-google-plus fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="dribbble" href="http://www.linkedin.com" title="Dribbble">
+                  <i class="fa fa-dribbble fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright"> 
+              &copy Corso Systems 2015
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+			
+					<!-- start-portfolio-script-->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+							<!---//End-portfolio-script-->
+	</body>
+</html>
+
