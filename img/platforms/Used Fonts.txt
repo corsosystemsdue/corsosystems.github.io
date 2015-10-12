@@ -1,0 +1,5 @@
+FONTS:
+
+- Open Sans, designed by Ascender Fonts:
+
+http://www.fontsquirrel.com/fonts/open-sans

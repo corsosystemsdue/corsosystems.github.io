@@ -1,0 +1,13 @@
+---
+layout: default
+img: dog.png
+category: Services
+title: Intuitive Interaction
+description: |
+  <p class="lead">Amplify your staff's <b style="color:#f64100;">experience</b> and <b style="color:#f64100;">expertise</b> using high-performance systems to interact with your process. <br/><br/>
+  <a target="_blank" href="http://corsosystems.com/hmi_scada">Human Machine Interfaces (HMI)</a> give your operators full control of your process providing feedback on status, alarms, upsets, etc. HMIs can even <b style="color:#f64100;">transform</b> your data into information using historical trends, dashboard elements, and <b style="color:#f64100;">automatic notifications</b>.</p>
+quote: Corso Systems developed a powerful and easy to user interface for our operators run our plant with access to the information they need when they need it.
+name: Ron Bell
+company: Jaxon Energy
+
+---

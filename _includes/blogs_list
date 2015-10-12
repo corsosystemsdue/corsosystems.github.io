@@ -1,0 +1,77 @@
+{% comment %}<!--
+The blogs_list include is a listing helper.
+Usage:
+  1) assign the 'blogs_list' variable to a valid array of pages or posts.
+  2) include JB/blogs_list
+  example:
+    <ul>
+  	  {% assign blogs_list = site.pages %}  
+  	  {% include JB/blogs_list %}
+  	</ul>
+  	
+  Grouping: (optional): 
+  	assign the 'group' variable to constrain the list to only pages/posts
+  	in the given group. Note you must define the group manually in the page/post
+  	meta-data to use this feature.
+  	Grouping is mainly helpful for non-post pages.
+  	If you want to group posts, it's easier/better to tag them, then pass the tagged posts array.
+  	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
+  	
+  This helper can be seen in use at: ../_layouts/default.html
+-->{% endcomment %}
+
+{% if site.JB.blogs_list.provider == "custom" %}
+  {% include custom/blogs_list %}
+{% else %}
+  {% for node in blogs_list %}
+    {% capture title_size %}{{ node.title | size }}{% endcapture %}
+    {% if node.title != null %}
+      {% if group == null or group == node.group %}
+      	{% if page.url == node.url %}
+      	   <div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
+                  <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
+                    <a href="{{ BASE_PATH }}{{node.url}}" style="margin-top:5px;color:#333333;"><b>{{ node.title }}</b></a>                    
+                  </div>
+                  <br/>
+                  <div>
+                    <a href="{{ BASE_PATH }}{{node.url}}"><img src="{{node.image}}" style="display:block;margin:auto;" width="100%"/></a>
+                  </div>
+                  <div style="width:100%;padding-top:10px;">
+                    {{node.summary}} 
+                  </div>
+                </div>
+      	{% else %}
+
+      	<div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
+                          <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
+                            <a href="{{ BASE_PATH }}{{node.url}}" style="margin-top:5px;color:#333333;"><b>{{ node.title }}</b></a>
+                          </div>
+                          <br/>
+                          <div>
+                            <a href="{{ BASE_PATH }}{{node.url}}"><img src="{{node.image}}" style="display:block;margin:auto;" width="100%"/></a>
+                          </div>
+                          <div style="width:100%;padding-top:10px;">
+                            {{node.summary}} 
+                          </div>
+                        </div>
+      	{% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% assign blogs_list = nil %}
+{% assign group = nil %}
+<!--
+        <div class="col-md-4" style="padding:-left:5px;padding-right:5px;text-align:left;">
+          <div style="width:100%; margin-top:10px;margin-bottom:10px;text-align:left;">
+            <a href="{{ BASE_PATH }}{{node.url}}" style="margin-top:5px;color:#333333;"><b>node.case_study_title</b></a>
+          </div>
+          <br/>
+          <div style="background:#f7f7f7;">
+            <a href="{{ BASE_PATH }}{{node.url}}"><img src="{{node.image}}" style="display:block;margin:auto;" width="100%"/></a>
+          </div>
+          <div style="width:100%;padding-top:10px;">
+            {{node.summary}} 
+          </div>
+        </div>-->
+      

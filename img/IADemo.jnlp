@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP file for Ignition client launch -->
+<jnlp
+  spec="1.0+"
+  codebase="http://iademo.inductiveautomation.com:80/main/"
+  href="system/launch/client/IADemo.jnlp">
+  <information>
+    <title>Ignition Demo</title>
+    <vendor>Inductive Automation</vendor>
+    <description kind="short">A Demo project showcasing most of Ignition&apos;s features: realtime status &amp; control, historical trending, UDTs &amp; templates, reporting, alarming, security, and more. To login as an Administrator use admin/password as the username/password. To login as an operator use operator/password. Operators have less privileges.</description>
+    <icon href="web/platform_logo.png"/>
+    <offline-allowed/>
+    <shortcut online="true">
+      <desktop/>
+      <menu/>
+    </shortcut>
+  </information>
+  <security><all-permissions/></security>
+  <resources>
+    <j2se version="1.8" initial-heap-size="32M" max-heap-size="256M" java-vm-args="-XX:MaxPermSize=128m"/>
+    <j2se version="1.7" initial-heap-size="32M" max-heap-size="256M" java-vm-args="-XX:MaxPermSize=128m"/>
+    <j2se version="1.6" initial-heap-size="32M" max-heap-size="256M" java-vm-args="-XX:MaxPermSize=128m"/>
+    <jar href="system/launchbin/launchclient.jar" download="eager"/>
+    <property name="javaws.sr.gateway.addr.0" value="iademo.inductiveautomation.com:80:443/main"/>
+    <property name="javaws.sr.launchts" value="1429300130487"/>
+    <property name="javaws.sr.scope" value="C"/>
+    <property name="javaws.sr.main" value="com.inductiveautomation.factorypmi.application.runtime.ClientLaunchHook"/>
+    <property name="javaws.sr.project" value="IADemo"/>
+    <property name="javaws.sr.project.version" value="Published"/>
+    <property name="sun.java2d.d3d" value="false"/>
+    <property name="javaws.sr.memory.init" value="32M"/>
+    <property name="javaws.sr.memory.max" value="256M"/>
+  </resources>
+  <application-desc main-class="com.inductiveautomation.ignition.client.launch.BootstrapSwing"/>
+</jnlp>

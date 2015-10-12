@@ -1,0 +1,38 @@
+---
+category: Blog
+layout: blog_post
+title: "Your Job Is So Easy a Computer Can Do It."
+page_title: "Your Job Is So Easy a Computer Can Do It."
+tags: ["Educate", "General"]
+image: "/img/robot.jpg"
+author: "Mike Cammarato"
+author-email: "mike@corsosystems.com"
+blurb: "<p>Does automation have a positive or negative effect on jobs? Is a robot going to take your job? Read more to get our take. </p>"
+date: "12-11-2014"
+---
+
+<p></p>
+
+<img src="/img/robot.jpg" width="430px"/>
+<br/>
+<br/>
+<p>It's a hot topic up for debate, are grocery stores justified in installing self-check out systems? Do pharmacies have the right to eliminate your pharmacist in favor of a robot arm? What about Google's self-driving cars in place of taxi cab drivers?</p>
+
+<p>Needless to say there's no right or wrong answer, but there are a few things to consider before jumping to a conclusion. Let's look at a self-checkout system at a grocery store. </p>
+
+<p>Unless you live under a rock you have probably used a self-check out system at your local grocery store, chances are you had to run in for a few things and didn't feel like waiting in line behind the people who's carts were stacked sky high. Often times grocery stores are only running a few of their many checkout lines so you opt for a self-check out. My experiences have been mostly positive, I scan my items, pay, and am walking out much faster than I would have if I waited in line. It almost seems too good to be true, customers are happy and your checkout process is more efficient, but let's take a closer look.</p>
+
+<p>It turns out the self-check out systems, aren't a exactly win-win for owners. One of the major issues with these systems is theft. According to a recent survey from the U.K., Retail Wire reports, "approximately 19 percent of shoppers admit to stealing from self-checkouts with the majority of those claiming they did so regularly. Around 57% of those indicated they first started stealing at self-checkouts because they couldn't get the items to scan." via <a href="http://www.retailwire.com/discussion/17529/self-checkout-theft-is-habit-forming">Self-checkout theft is habit forming.</a>
+
+<p>Can we blame people for bagging items that wouldn't scan? That's another discussion entirely, but while the self-checkouts are faster, they're not necessarily more efficient if they allow theft. On the surface self-checkouts seemed like a no brainier, but after looking a little bit closer we can see just how valuable a human is as opposed to a computer in the grocery line.</p>
+
+<img src="/img/robothandshake.jpg" width="430px"/>
+<br />
+<br />
+<p>The truth is that a lot of these technologies are not developed enough to be put into mainstream use without a human controlling or managing them. Pharmacies are toying with the idea of an automated pharmacist, but there's no technology even close to replacing a human. Google's self-driving cars are awesome, but can't drive anywhere that's not predetermined by a bunch of route planning done by senors and other humans driving the route first. The best automation is the kind that assists humans in doing their job.</p>
+
+<p>One of the things we strive for as an integrator is not sacrificing humans for a more efficient process. This doesn't work out in the long run, we believe machines should be doing the jobs that people wish machines could have done years ago and help a company meet demand. For example, a bottling line machine that produces 500 bottles per minute as opposed multiple people trying to bottle enough beer to meet demand is a great thing. Allowing companies to have the technology they need to grow, expand, and hire more people to run the machines is what automation and integration is all about.
+
+<p>At the end of the day we aren't at the technological level of robots independently running society and we're sure nowhere near Terminator or the Matrix, as much as I would love rebelling against the robot empire. For now you can put away your tin-foil hats and grab a programing book, because one thing I know for sure is that computer automation isn't going anywhere so why not be ahead of the curve? </p>
+
+
