@@ -21,6 +21,7 @@ type: "Case Study"
 ---
 
 
+
 <div class="row">
 	<hr>
 	<div class="col-md-8" style="text-align:left;">
