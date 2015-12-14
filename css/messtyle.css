@@ -131,6 +131,35 @@ body a{
 .header-info h1 label{
 	color:#f64100;
 }
+
+.header-info{
+	position: relative;
+	padding: 7.5em 0 4em;
+}
+.header-info h2{
+	color: #FFF;
+	font-family: 'open_sansbold';
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin: 0.5em 0 0.01em;
+}
+.header-info h2 span{
+	width: 10%;
+	background: #747474;
+	display: inline-block;
+	height: 10px;
+	vertical-align: middle;
+}
+.header-info h2 span:nth-child(1){
+	margin-right:0.5em;
+}
+.header-info h2 span:last-child{
+	margin-left:0.5em;
+}
+
+.header-info h2 label{
+	color:#f64100;
+}
 .header-info p{
 	color: #fff;
 	margin: 0;
