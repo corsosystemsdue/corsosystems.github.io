@@ -105,7 +105,7 @@
 <div class="row post-full">
   <div class="col-md-12">
     <div class="date">
-      <!--<span>03 October 2014</span>-->
+      <!--<span>16 December 2014</span>-->
     </div>
     
     <div class="content">
@@ -121,19 +121,19 @@
         
         
         
-          <li class="active" style="display:inline;">Production Data Management System for a Diatomaceous Earth Processing Company</li>
+          <li class="active" style="display:inline;">Casino Gaming Conveyor System Upgrades</li>
         </ol>
       </div>
         <div class="col-md-12">
           <div style="text-align:left;">
-            <h2>Production Data Management System for a Diatomaceous Earth Processing Company </h2>
+            <h2>Casino Gaming Conveyor System Upgrades </h2>
           </div>
         </div>
         <hr>
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-4">
-            <img src="/img/prod.png" style="display:block;margin:auto;" width="100%"/>
+            <img src="/img/slotfloor.jpg" style="display:block;margin:auto;" width="100%"/>
           </div>
 
           <div class="col-md-4" style="text-align:left;">
@@ -142,7 +142,7 @@
                     <h4>Project Summary</h4>
                   </div>
                 </div>
-            <p>A leading diatomaceous earth processing facility was storing some of its production data in Excel spreadsheets.</p><p>After using this method for a while the amount of spreadsheets on their server made it difficult to find specific information in a timely manner.</p><p>The best remedy for this problem was to move to a web-based solution. This approach provided a centralized database to store the data and an interface for authorized users to enter, edit, and view the data.</p>
+            <p>An in-house integrator at a large casino gaming machine manufacturer had implemented a conveyor control system prior to retiring from the company. After his departure and near constant supervision of the system, productivity dropped due to in-process machines being sent to incorrect locations, a holding and re-work area not functioning correctly and various other issues. Our staff was brought in to bring the system up to industry standards and bring productivity to desired levels.</p>
           </div>
           <div class="col-md-4">
             <div class="row">
@@ -156,15 +156,15 @@
               <div class="col-md-5 col-md-offset-1"><b>Location</b></div>
             </div>
             <div class="row" style="text-align:left;">
-              <div class="col-md-5">Mining</div>
-              <div class="col-md-5 col-md-offset-1">Lovelock NV</div>
+              <div class="col-md-5">Manufactured Goods</div>
+              <div class="col-md-5 col-md-offset-1">Reno, NV</div>
             </div>
             <hr>
             <div class="row" style="text-align:left;color:#333333;">
               <div class="col-md-10"><b>Services</b></div>
             </div>
             <div class="row" style="text-align:left;">
-              <div class="col-md-10">Web-based tools, Technology Migration</div>
+              <div class="col-md-10">SCADA implementation, Database management, Process Analytics, Process Optimization</div>
             </div>
           </div>
         </div>
@@ -176,21 +176,21 @@
             <label style="margin-top:10px;">Focus</label>
             <div style="border-top:1px solid #c3c3c3;margin-top:5px;margin-bottom:10px;"></div>
             <ul style="text-align:left;">
-              <li>Centralize production data</li><li>Decrease data management overhead</li><li>Optimize business processes</li>
+              <li>Bring system to modern standards</li><li>Reduce process upsets</li><li>Increase productivity</li>
             </ul>
           </div>
           <div class="col-md-3" style="border:1px solid #ececec;background:#f7f7f7;color:#333333;text-align:left; margin-left:40px;">
               <label style="margin-top:10px;">Drive</label>
               <div style="border-top:1px solid #c3c3c3;margin-top:5px;margin-bottom:10px;"></div>
               <ul style="text-align:left;">
-                <li>Understand existing processes</li><li>Develop web-based system</li><li>Implement system and train personnel on its operation</li><li>Increase value of data by integrating with process data</li>
+                <li>Develop system using cutting-edge hardware and software</li><li>Implement system and train personnel on its operation</li><li>Improve process efficiency</li>
               </ul>
             </div>
             <div class="col-md-3" style="border:1px solid #ececec;background:#f7f7f7;color:#333333;text-align:left;margin-left:40px;">
               <label style="margin-top:10px;">Results</label>
               <div style="border-top:1px solid #c3c3c3;margin-top:5px;margin-bottom:10px;"></div>
               <ul style="text-align:left;">
-                <li>Reduced overhead costs</li><li>Increased data utilization</li><li>Increased productivity</li>
+                <li>Modern system</li><li>Process upsets reduced to near zero</li><li>Increased productivity</li>
               </ul>
             </div>
         </div>
@@ -201,13 +201,13 @@
         <h4>Solution</h4>
         <hr>
 
-        <p>Our staff worked with a large diatomaceous earth processing facility to implement a web-based system to store and analyze its production data.</p><p>We used the client's existing paper and Excel based tools to develop a database schema for the data.</p><p>With the database in place we developed the web-based front end to enter new data and access existing records. In addition to data entry forms the interface included automated reporting functionality allowing users to select a date-range and/or specific process areas to view production data.</p><p>The system generates nightly reports and sends them to key personnel automatically.</p><p>In addition to tabular views of the data, the system includes pareto charts to track downtime and product loss reasons for a range of dates as well as process OEE.</p><p>The system also includes the ability to automatically gather and store data from the process historian.</p>
+        <p>Our staff worked with the in-house integrator prior to his departure to understand his design methodology, current issues with the system and future plans for further development. We familiarized ourselves with the existing code base and met with the system's stakeholders to formulate a plan moving forward.</p><p>Over the course of a few evenings when the line was down we began resolving issues with the Transaction Manager configuration passing incorrect data from the PLC to SQL Server. This exposed several race conditions in the logic preventing some machines from being sent to technician workstations and instead being sent to the end of the line as if they were complete machines. We resolved the race conditions and implemented similar changes to a machine holding/re-work re-entry area at the end of the line. During continued operation of the system we noticed some pallets consistently being sent to incorrect locations on the line and further research indicated the RFID tags on the pallets were incorrectly installed. Resolving this issue along with the logic changes reduced runaway machines from 50+ per shift to less than one a day on average.</p><p>Once all of the logic issues on the line were resolved we completed integration with the company's SAP ERP system to integrate scheduling and inventory data into the control system to better utilize the technicians on the line. </p>
         </div>
         <div class="col-md-4">
           <h4>Technology</h4>
           <hr>
           <ul class="left-align list-unstyled">
-            <li>ASP.NET</li> <li>ASP.NET MVC</li> <li>FactoryTalk Historian</li> <li>SQL Server</li> <li>jQuery</li> <li>Javascript</li>
+            <li>FactoryTalk View SE</li> <li>FactoryTalk Transaction Manager</li> <li>Allen Bradley CompactLogix PLCs</li> <li>Allen Bradley PanelView Plus</li> <li>SQL Server</li> <li>SAP ERP</li> <li>RFID tags and scanners</li>
           </ul>
           </div>
         </div>
@@ -219,7 +219,7 @@
           <h4>Benefits</h4>
 
           <div class="list-group">
-            <p> <span class="glyphicon glyphicon-chevron-right"></span> Centralized database of production data</p> <p> <span class="glyphicon glyphicon-chevron-right"></span> Advanced analysis tools for production losses, downtime and OEE data.</p> <p> <span class="glyphicon glyphicon-chevron-right"></span> Automated reports sent out to key personnel on a regular basis.</p>
+            <p> <span class="glyphicon glyphicon-chevron-right"></span> After upgrades the system met industry standards for logic and safety</p> <p> <span class="glyphicon glyphicon-chevron-right"></span> The control system was fully integrated into the company's ERP system enabling more precise and traceable scheduling and inventory management</p> <p> <span class="glyphicon glyphicon-chevron-right"></span> The number of machines being sent to incorrect locations was reduced from 50+ per shift to less than one per day on average</p> <p> <span class="glyphicon glyphicon-chevron-right"></span> The amount of time spent moving machines back to the front of the line and manually directing them went from full-time to essentially zero</p> <p> <span class="glyphicon glyphicon-chevron-right"></span> System upgrades found 1/3 of the pallets used on the line had incorrectly installed RFID tags</p>
               </div>
         </div>
         </div>
@@ -238,13 +238,13 @@
 <!--
   
      
-    	<li class="pill"><a href="/case_studies.html#Mining-ref">Miningaaaaaa</a></li>
-     
-    	<li class="pill"><a href="/case_studies.html#Web-based Solutions-ref">Web-based Solutionsaaaaaa</a></li>
-     
-    	<li class="pill"><a href="/case_studies.html#Process Analytics-ref">Process Analyticsaaaaaa</a></li>
+    	<li class="pill"><a href="/case_studies.html#Manufacturing Execution System (MES)-ref">Manufacturing Execution System (MES)aaaaaa</a></li>
      
     	<li class="pill"><a href="/case_studies.html#Database Management-ref">Database Managementaaaaaa</a></li>
+     
+    	<li class="pill"><a href="/case_studies.html#PLC-ref">PLCaaaaaa</a></li>
+     
+    	<li class="pill"><a href="/case_studies.html#HMI-ref">HMIaaaaaa</a></li>
     
   
 
@@ -255,7 +255,8 @@
 
 
 
-<li class="pill"><a href="/case_studies.html#1234Premier Projects-ref">Premier Projects</a></li>
+<li class="pill"><a href="/case_studies.html#1234Premier Projects
+-ref">Premier Projects</a></li>
 
  
 
@@ -272,6 +273,11 @@
 
 
 <li class="pill"><a href="/case_studies.html#Database Management
+
+
+
+
+
 
 
 -ref">Database Management</a></li>
@@ -316,7 +322,8 @@
 
 
 
-<li class="pill"><a href="/case_studies.html#HMI-ref">HMI</a></li>
+<li class="pill"><a href="/case_studies.html#HMI
+-ref">HMI</a></li>
 
  
 
@@ -325,6 +332,7 @@
 
 
 <li class="pill"><a href="/case_studies.html#HMI/PLC
+
 
 -ref">HMI/PLC</a></li>
 
@@ -358,7 +366,8 @@
 
 
 
-<li class="pill"><a href="/case_studies.html#Manufacturing Execution System (MES)-ref">Manufacturing Execution System (MES)</a></li>
+<li class="pill"><a href="/case_studies.html#Manufacturing Execution System (MES)
+-ref">Manufacturing Execution System (MES)</a></li>
 
  
 
@@ -371,6 +380,7 @@
 
 
 <li class="pill"><a href="/case_studies.html#Mining
+
 
 
 -ref">Mining</a></li>
@@ -393,7 +403,8 @@
 
 
 
-<li class="pill"><a href="/case_studies.html#PLC-ref">PLC</a></li>
+<li class="pill"><a href="/case_studies.html#PLC
+-ref">PLC</a></li>
 
  
 
@@ -402,6 +413,9 @@
 
 
 <li class="pill"><a href="/case_studies.html#Process Analytics
+
+
+
 
 -ref">Process Analytics</a></li>
 
@@ -413,6 +427,7 @@
 
 <li class="pill"><a href="/case_studies.html#Process Control
 
+
 -ref">Process Control</a></li>
 
  
@@ -422,6 +437,9 @@
 
 
 <li class="pill"><a href="/case_studies.html#Process Historian
+
+
+
 -ref">Process Historian</a></li>
 
  
@@ -434,7 +452,9 @@
 
 
 
-<li class="pill"><a href="/case_studies.html#Remote Support-ref">Remote Support</a></li>
+<li class="pill"><a href="/case_studies.html#Remote Support
+
+-ref">Remote Support</a></li>
 
  
 
@@ -442,7 +462,8 @@
 
 
 
-<li class="pill"><a href="/case_studies.html#SCADA-ref">SCADA</a></li>
+<li class="pill"><a href="/case_studies.html#SCADA
+-ref">SCADA</a></li>
 
  
 
@@ -458,7 +479,9 @@
 
 
 
-<li class="pill"><a href="/case_studies.html#Solar-ref">Solar</a></li>
+<li class="pill"><a href="/case_studies.html#Solar
+
+-ref">Solar</a></li>
 
  
 
@@ -467,6 +490,8 @@
 
 
 <li class="pill"><a href="/case_studies.html#Standardization
+
+
 -ref">Standardization</a></li>
 
  
@@ -487,6 +512,7 @@
 
 <li class="pill"><a href="/case_studies.html#Web-based Solutions
 
+
 -ref">Web-based Solutions</a></li>
 
  
@@ -499,11 +525,11 @@
     
     <ul class="pagination">
       
-        <li class="prev"><a href="/casestudy/wonderware-to-fthistorian-conversion" title="Wonderware Historian to FactoryTalk Historian Migration">&larr; Previous</a></li>
+        <li class="prev"><a href="/blog/inductive-automation-mes-analysis" title="Inductive Automation MES - Analyzing Your Data">&larr; Previous</a></li>
       
         <li><a href="/archive.html">Archive</a></li>
       
-        <li class="next"><a href="/blog/first-post" title="Welcome to our blog">Next &rarr;</a></li>
+        <li class="next"><a href="/blog/inductive-automation-mes-summary" title="Summarizing Inductive Automation's MES Suite">Next &rarr;</a></li>
       
     </ul>
   </div>

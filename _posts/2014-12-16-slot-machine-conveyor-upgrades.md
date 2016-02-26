@@ -3,7 +3,7 @@ category: CaseStudy
 layout: case_study
 title: "Casino Gaming Conveyor System Upgrades"
 description: "Upgraded the conveyor system at a leading casino gaming manufacturing facility increasing productivity and efficiency."
-tags: [ "Manufacturing Execution System (MES), "Database Management", "PLC", "HMI"]
+tags: [ "Manufacturing Execution System (MES)", "Database Management", "PLC", "HMI"]
 image: "/img/slotfloor.jpg"
 summary: "A casino gaming manufacturing facility increased productivity after working with us to re-design and integrate their control system with SAP."
 case_study_title: "Casino Gaming Conveyor System Upgrades"
