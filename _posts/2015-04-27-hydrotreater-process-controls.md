@@ -6,7 +6,7 @@ date: "2015-04-27"
 description: "Implement and commission process controls for a hydrotreating facility, provide total process visibility, LIMS system for QA/QC management, and integrate with business systems."
 tags: ["Oil & Gas", "Process Control", "HMI/PLC"]
 case_study_title: "Hydrotreater Process Control, Analytics, and LIMS Systems"
-summary: "Jaxon Energy teamed up with Corso Systems to develop a new control and information system for its Jackson, MS hydrotreating plant. Jaxon leveraged Rockwell Automation's FactoryTalk software suite for robust operator control of the plant and secure remote access to real-time information."
+summary: "Jaxon Energy teamed up with Corso Systems to develop a new PLC/SCADA based control and information system for its Jackson, MS hydrotreating plant. Jaxon leveraged Rockwell Automation's FactoryTalk software suite for robust operator control of the plant and secure remote access to real-time information."
 image: "/img/jaxonplant.jpg"
 detail_summary: "<p>Jaxon Energy teamed up with Corso Systems to develop a new control and information system for its Jackson, MS hydrotreating plant. Jaxon leveraged Rockwell Automation's FactoryTalk software suite for robust operator control of the plant and secure remote access to real-time information.</p><p>The control system, utilized Allen Bradley and Rockwell Automation components, giving Jaxon Energy more power and flexibility than they were able to achieve on DCS systems, at less than half the cost.</p><p>FactoryTalk Historian and VantagePoint were used to provide access to historical information, with a custom solution for material reconciliation and LIMS needs, fully integrated into Jaxon Energy's business systems.</p>"
 industry: "Oil & Gas"
