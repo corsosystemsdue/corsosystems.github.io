@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corso Systems</title>
+    <description>Corso Systems is a system integration firm based in Chicago Illinois. Founded in 2011, they focus on implementing business intelligence and process automation solutions for a wide variety of industries including oil &amp; gas, food &amp; beverage, solar power generation, and mining. Corso Systems prides itself on building long-term customer relationships, combining experience and tribal knowledge to build foundational systems that help drive innovation in how customers do business.
+</description>
+    <link>http://corsosystems.com/</link>
+    <atom:link href="http://corsosystems.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 03 Mar 2016 13:39:14 -0600</pubDate>
+    <lastBuildDate>Thu, 03 Mar 2016 13:39:14 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Oil/Gas Refinery Process Control, Analytics, and LIMS Systems</title>
+        <description>
+</description>
+        <pubDate>Fri, 26 Feb 2016 00:00:00 -0600</pubDate>
+        <link>http://corsosystems.com/casestudy/2016/02/26/rerefiner-wincc-oa.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/casestudy/2016/02/26/rerefiner-wincc-oa.html</guid>
+        
+        <category>Oil &amp; Gas</category>
+        
+        <category>Process Control</category>
+        
+        <category>HMI/PLC</category>
+        
+        <category>1234Premier Projects</category>
+        
+        
+        <category>CaseStudy</category>
+        
+      </item>
+    
+      <item>
+        <title>MES Essentials Webinar Wrap-Up</title>
+        <description>&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Watch the Webinar&lt;/b&gt;&lt;/h4&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/g2Zx3gYiSuM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;On July 14th and 16th 2015 we hosted a Manufacturing Execution System (MES) Essentials webinar.&lt;/p&gt;
+
+&lt;p&gt;The goal was to answer the common questions we receive about MES systems.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;What is an MES system?&lt;/li&gt;
+
+&lt;li&gt;What is OEE?&lt;/li&gt;
+
+&lt;li&gt;How do I use OEE to impact my costs/profits?&lt;/li&gt;
+
+&lt;li&gt;What are other common Key Performance Indicators (KPIs)?&lt;/li&gt;
+
+&lt;li&gt;How does my team access the information the MES system provides?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/mesessheader1.png&quot; width=&quot;380px&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;System Selection&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;One question asked in both sessions was: &lt;b style=&quot;color:#f64100;&quot;&gt;&quot;How do you help someone decide what MES platform is right for them?&quot;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The answer is almost as open ended as the number of choices on the market.&lt;/p&gt;
+
+&lt;p&gt;Here is our process to help a customer choose an MES solution:&lt;/p&gt;
+
+&lt;p style=&quot;color:#f64100;&quot;&gt;1. Does the customer have a preference for one system over another? This can be based on seeing a system in place at another facility, marketing materials, or just personal preference. &lt;/p&gt;
+
+&lt;p&gt;In some cases this can make for a quick decision process.&lt;/p&gt;
+
+&lt;p style=&quot;color:#f64100;&quot;&gt;2. Is there a software platform already in place on the control system side? For example, they are already using Inductive Automation, Rockwell Automation, Siemens, Wonderware, etc. &lt;/p&gt;
+
+&lt;p&gt;If so it usually makes sense to stick with the vendor they already have. There are already software support costs, internal knowledge, and a foundation for integration between the two systems.&lt;/p&gt;
+
+&lt;p&gt;The caveat here is if they are not happy with the existing system for some reason. In this case we would keep digging deeper.&lt;/p&gt;
+
+&lt;p style=&quot;color:#f64100;&quot;&gt;3. Are there any hardware compatibility issues with a particular MES system and the PLCs on the plant floor?&lt;/p&gt;
+
+&lt;p&gt;In most cases communicating between any MES system and any PLC isn&#39;t impossible. Certain combinations of software and hardware may prove to be more costly. For example, if there is an older PLC requiring serial communications, an MES system with this option built into the software is a good option. Contrast this with a system that without serial support, requiring a hardware interface at the PLC level.&lt;/p&gt;
+
+&lt;p&gt;The other cost for communication hurdles is an OPC server to link software to hardware. In single vendor systems this is usually not required, but can be the easiest way to bridge the vendor gaps in some facilities.&lt;/p&gt;
+
+&lt;p style=&quot;color:#f64100;&quot;&gt;4. The final question geared towards existing infrastructure is what business systems and ERP system is in use on the business side?&lt;/p&gt;
+
+&lt;p&gt;Most MES systems can communicate with most databases and ERP systems, with the potential for extra integration time in some cases.&lt;/p&gt;
+
+&lt;p&gt;These questions help define the costs to integrate a particular MES system into existing systems.&lt;/p&gt;
+
+&lt;p&gt;Assuming at this point the options haven&#39;t been narrowed down enough we get into more specific questions.&lt;/p&gt;
+
+&lt;p style=&quot;color:#f64100;&quot;&gt;5. How much ownership of the system does the customer want to have long-term? If the customer wants to maintain and grow the system internally, their level of technical competence can dictate the right option.&lt;/p&gt;
+
+&lt;p&gt;MES systems move beyond ladder logic and HMI development into the world of databases, web services, and IT infrastructure. If the customer does not have internal resources to maintain these systems, the choice for a more user friendly system is easy.&lt;/p&gt;
+
+&lt;p&gt;If instead the customer is comfortable using the system integrator for ongoing support, this isn&#39;t as big of a factor.&lt;/p&gt;
+
+&lt;p style=&quot;color:#f64100;&quot;&gt;6. Does the customer want a single system with a wide array functionality, or many smaller systems with more specialized functionality?&lt;/p&gt;
+
+&lt;p&gt;For example, it is possible to buy a system with OEE, SPC, Track and Trace, Reporting, ERP integrations, and other KPIs and tools built into one interface. Or they can start with OEE and Reporting tools, then buy a separate system with SPC, one for Track and Trace, and integrate everything as the system grows.&lt;/p&gt;
+
+&lt;p&gt;This choice is usally dictacted by who &quot;owns&quot; the system. A single system is usually better for the process operations team to manage, while the multiple system approach can be better for IT to manage. Smaller systems &quot;touch&quot; less of the process at a time, requiring less domain knowledge about any one area. All-encompassing systems interact with more of the process and other pieces of the system, making it easier for someone familiar with the process to manage.&lt;/p&gt;
+
+&lt;p&gt;At this point, we have usually narrowed the options down to 2 to 3 systems. This brings us to the final question:&lt;/p&gt;
+
+&lt;p style=&quot;color:#f64100;&quot;&gt;7. Overall Cost.&lt;/p&gt;
+
+&lt;p&gt;The cost of the system is a huge factor in deciding which option to select. This includes the cost of the software, networking hardware, and servers required to run the system. It also includes the labor and time to integrate the system with the shop floor and the top floor.&lt;/p&gt;
+
+&lt;p&gt;This is where the system archictecture can influence the lifecycle of the project. Smaller systems can be implemented in phases, spreading the costs of both software/hardware and labor out over time. Larger systems integrations can be phased, with a higher software cost up front.&lt;/p&gt;
+
+&lt;p&gt;Implementations cost is where the discussion of ROI comes into play with the cost/benefit analysis also influencing the decision.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Organizational Interfaces&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;Another question we got was about difficulty between production staff and IT on MES projects. &lt;/p&gt;
+
+&lt;p&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;&quot;How do we overcome the organizational hurdles between production and IT to integrate business and production systems?&quot;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a common problem. Production needs to have certain network access to enable database connections. IT wants to keep everything secure and not open ports. Some software installations need administrator rights and users don&#39;t have them. IT doesn&#39;t know the ins and outs of manufacturing software and can&#39;t foresee potential pitfalls.&lt;/p&gt;
+
+&lt;p&gt;We overcome these issues by acting as the middleman or facilitator for discussions between production and the rest of the organization.&lt;/p&gt;
+
+&lt;p&gt;We have experience on both sides of the table and understand how to frame information and requests so the other side can hear them.&lt;/p&gt;
+
+&lt;p&gt;IT is not against making it easy for production systems to access business systems. They are against opening up the network to unnecessary security risk. They will give permissions to set up software when necessary, and will reduce them upon completion to ensure system integrity.&lt;/p&gt;
+
+&lt;p&gt;Framing the discussion in specific terms is the first step to get IT to buy into an MES project. The main questions you will need to answer are:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;What access is necessary, physical, network, and user permissions? &lt;/li&gt;
+&lt;li&gt;What data is required?&lt;/li&gt;
+&lt;li&gt;What is what is the least risky way to access the data?&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Putting together this information before sitting down with IT will ease frustration across the board. &lt;/p&gt;
+
+&lt;p&gt;Other things we like to do are to bring IT in once you have decided to move forward with an MES project. Keep them in the loop as you make vendor decisions. Introduce your integration partners to IT and start the relationship as early as possible.&lt;/p&gt;
+
+&lt;p&gt;The other hurdle to overcome is understanding system ownership. If IT will manage licensing, support, and configuration after the project is complete, involve them in the project. Include them in training sessions, and help them learn the production side of the MES system. The same holds true on the production side if production will take ownership.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Continuous Improvement&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;The final question we would like to cover focused on the long-term use of MES in an organization.&lt;/p&gt;
+
+&lt;p&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;&quot;How do you ensure a company participates in continuous improvement over the life of an MES system?&quot;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The foundation of continuous improvement is cultural within an organization. It requires business objectives to be tied to continuous improvement. It also requires internal champions to monitor, maintain, and even retire KPIs, reports, and other informational tools over time.&lt;/p&gt;
+
+&lt;p&gt;For example, a company is tracking OEE, and finds their main downtime issue is changeovers on a particular machine. Seeking to narrow down the cause, the add a KPI for changeover durations on this machine. After measuring for a couple of weeks they find the problem stems from a lack of training. After revamping the training class and re-training the operators, the issue is largely resolved.&lt;/p&gt;
+
+&lt;p&gt;In some companies, once this measurement has made it into reports, it will be in the reports forever. The thinking here is something was important enough to measure once should be measured forever. This type of thinking will eventually lead to information overload.&lt;/p&gt;
+
+&lt;p&gt;The goal of continuous improvement is to always improve your results. As your results improve, you will also need to improve your tools and processes to stay up to date with the rest of your process. This means it is important to use measurements for only as long as they are useful. Once issues are fixed and the measurements are no longer changing, they can be taken out of regular circulation.&lt;/p&gt;
+
+&lt;p&gt;Many times we have gone into a facility and they have dozens of pages of reports, and everyone only looks at one or two pages. These pages focus on the current initiatives and the rest have just never been taken out of the reports.&lt;/p&gt;
+
+&lt;p&gt;Continuous improvement is all about changing the idea of &quot;that&#39;s how we have always done things.&quot; &lt;/p&gt;
+
+&lt;p&gt;We hope you enjoyed our webinar and were able to learn something.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please ask us anytime, we are always happy to help.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/07/17/mes-essentials-discussion.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/07/17/mes-essentials-discussion.html</guid>
+        
+        <category>Education</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>MES Essentials Webinar</title>
+        <description>&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Improve Your Bottom Line&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;In today&#39;s world, doing more without spending more is the name of the game. The problem with this approach is not investing in better tools means you are spending your time instead.&lt;/p&gt;
+
+&lt;p&gt;If all you have is a trend of your data, how do you know how much downtime you had on any given day? Once you spend the time to do the calculations, how much time do you spend determining the root causes?&lt;/p&gt;
+
+&lt;p&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;How valuable is your time?&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/mesessheader.png&quot; width=&quot;380px&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Manufacturing Execution Systems Do the Heavy Lifting&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;Having the right tool for the job makes any project easier. If you want to use your process data to reduce your costs, and increase your profits, a Manufacturing Execution System (MES) is the way to go. MES does the &lt;b style=&quot;color:#f64100;&quot;&gt;heavy lifting&lt;/b&gt; for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Automatically&lt;/b&gt; track downtime. When it happened, how long it lasted, and why it occurred.&lt;/p&gt;
+
+&lt;p&gt;Integrate your &lt;b style=&quot;color:#f64100;&quot;&gt;production scheduling&lt;/b&gt; so you know what, when and how much product to make.&lt;/p&gt;
+
+&lt;p&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Track and trace&lt;/b&gt; your product lifecycle from your raw material suppliers, all the way through to your customers.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;...And That&#39;s the Bottom Line&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;It&#39;s true, MES systems are an investment. They happen to be a really great investment, and put to proper use, can quickly pay for themselves. Find out how in our MES Essentials webinar:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://corsosystems.com/mesessentials&quot; class=&quot;btn btn-custom&quot;&gt;More Information&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Sign Up Below:&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-xs-6&quot;&gt;
+		&lt;!-- Begin MailChimp Signup Form --&gt;
+		&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+		&lt;style type=&quot;text/css&quot;&gt;
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   		We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		&lt;/style&gt;
+		&lt;div id=&quot;mc_embed_signup&quot;&gt;
+			&lt;form action=&quot;//corsosystems.us8.list-manage.com/subscribe/post?u=9c3aca2e795f5d04e5358a747&amp;amp;id=fcdfee43a2&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate=&quot;&quot;&gt;
+    				&lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
+					&lt;label for=&quot;mce-EMAIL&quot; style=&quot;text-align:center;&quot;&gt;Sign up for MES Essentials on Tuesday July 14th @ 10:30 AM CDT&lt;/label&gt;
+					&lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required=&quot;&quot; style=&quot;width:80%;margin-left:10%&quot; /&gt;
+    				&lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+    					&lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_9c3aca2e795f5d04e5358a747_fcdfee43a2&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+    					&lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;btn btn-custom&quot; style=&quot;width:40%;margin-left:30%&quot; /&gt;
+    				&lt;/div&gt;
+			&lt;/form&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-xs-5&quot;&gt;
+	&lt;!-- Begin MailChimp Signup Form --&gt;
+		&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+		&lt;style type=&quot;text/css&quot;&gt;
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   		We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		&lt;/style&gt;
+		&lt;div id=&quot;mc_embed_signup&quot;&gt;
+			&lt;form action=&quot;//corsosystems.us8.list-manage.com/subscribe/post?u=9c3aca2e795f5d04e5358a747&amp;amp;id=1ef6dd1aa2&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate=&quot;&quot;&gt;
+    				&lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
+					&lt;label for=&quot;mce-EMAIL&quot; style=&quot;text-align:center;&quot;&gt;Sign up for MES Essentials on Thursday July 16th @ 2:30 PM CDT&lt;/label&gt;
+					&lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;email&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;email address&quot; required=&quot;&quot; style=&quot;width:80%;margin-left:10%&quot; /&gt;
+    					&lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+    					&lt;div style=&quot;position: absolute; left: -5000px;&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;	b_9c3aca2e795f5d04e5358a747_1ef6dd1aa2&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+    					&lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;btn btn-custom&quot; style=&quot;width:40%;margin-left:30%&quot; /&gt;
+    				&lt;/div&gt;
+			&lt;/form&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+	.btn-custom { background-color: hsl(17, 100%, 40%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&quot;#ff6c32&quot;, endColorstr=&quot;#cc3900&quot;); background-image: -khtml-gradient(linear, left top, left bottom, from(#ff6c32), to(#cc3900)); background-image: -moz-linear-gradient(top, #ff6c32, #cc3900); background-image: -ms-linear-gradient(top, #ff6c32, #cc3900); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff6c32), color-stop(100%, #cc3900)); background-image: -webkit-linear-gradient(top, #ff6c32, #cc3900); background-image: -o-linear-gradient(top, #ff6c32, #cc3900); background-image: linear-gradient(#ff6c32, #cc3900); border-color: #cc3900 #cc3900 hsl(17, 100%, 35%); color: white !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33); -webkit-font-smoothing: antialiased; }
+&lt;/style&gt;
+
+</description>
+        <pubDate>Fri, 10 Jul 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/07/10/mes-essentials.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/07/10/mes-essentials.html</guid>
+        
+        <category>Education</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Pareto Analysis For Manufacturing</title>
+        <description>&lt;h4 style=&quot;color:#f64100;&quot;&gt;How do you prioritize your workload?&lt;/h4&gt;
+
+&lt;p&gt;You have some hot-button items always at the top of the list. Items usually of great importance to someone else. In the middle are things  important t you, and some things at the bottom that would be nice but not critical to complete.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;How &lt;b&gt;&lt;i&gt;should&lt;/i&gt;&lt;/b&gt; you prioritize your workload?&lt;/h4&gt;
+
+&lt;p&gt;One way is using Pareto Analysis. Here is an example of why a processing plant shutdown over a certain period of time:&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/pareto.png&quot; width=&quot;400px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pareto Analysis is simple. Track the number of occurrences of each downtime reason. Sort them in descending order, and put them on a bar chart, with the count on the left y-axis. Next, plot a line of each the percentage each bar contributes to the total downtime count with the value on the right y-axis. This shows you the most common causes of downtime from left to right, and the percentage they are contributing to the whole.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;How is this useful?&lt;/h4&gt;
+
+&lt;p&gt;Sorting information this way shows that if you cut down the 2 most downtime causes, your downtime occurences would drop 50%. To show this, draw a vertical line to the right of a bar to the percentage line. Where this line crosses the percentage line, draw a horizontal line to the right y-axis. This will give you the total percent for the downtime reasons up to that point.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/pareto1.png&quot; width=&quot;400px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can apply this method to just about any situation in your plant:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Quality issues&lt;/li&gt;
+	&lt;li&gt;Safety incidents&lt;/li&gt;
+	&lt;li&gt;Maintenance issues&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;If you are already tracking things like OEE, you can leverage Pareto Analysis tools as a drill-down option in your OEE reports. Drilling down to show the underlying root causes of quality, throughput, or cycle time issues.&lt;/p&gt;
+
+&lt;p&gt;Another powerful way to use Pareto Analysis is to go beyond ordering by number of occurrences, and instead by duration. First, imagine you had 100 instances of downtime due to mechanical issues. Second, imagine you have 4 instances of downtime due to power failures. Let&#39;s say mechanical issues average 1 minute each, while power failures average 2 hours each. Going by number of occurrences fixing the mechanical issues would be a huge win. If instead you look at reducing the impact on total downtime, power failures have a larger impact.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;Wrapping Up&lt;/h4&gt;
+
+&lt;p&gt;Pareto Analysis can be a powerful tool used to help you prioritize your work load. Please feel free to &lt;a href=&quot;mailto:info@corsosystems.com?subject=Pareto Analysis&quot;&gt;
+reach out&lt;/a&gt;  to us at any time if you have questions. We would be happy to show you some of the automated Pareto Analysis systems we have developed for many different processes.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/06/19/pareto-analysis-for-manufacturing.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/06/19/pareto-analysis-for-manufacturing.html</guid>
+        
+        <category>Educate</category>
+        
+        <category>Data Analysis</category>
+        
+        <category>Information</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Siemens S7-1200 and S7-1500 Web Server Step-By-Step - Web-based Trending</title>
+        <description>&lt;h4 style=&quot;color:#f64100;&quot;&gt;Introduction&lt;/h4&gt;
+
+&lt;p&gt;This series will give you a foundation to build a fully functional, web-based system with HMI, reporting, recipe management, trending, and dashboard components using only an S7-1200 or S7-1500 PLC, some Javascript and jQuery libraries, and a web-browser. One assumption is you already have some experience with web development, or are willing to dive into a few potentially new concepts. We won&#39;t be breaking down the fundamentals of web development here, just showing what you need to know to get data into the various formats required for the pages to work properly.&lt;/p&gt;
+
+&lt;p&gt;This article, the first of the series, will cover configuring the web server and show you how to implement trends in a custom web page using the S7-1200 and S7-1500&#39;s built-in datalogs for historical data.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;Why is this useful?&lt;/h4&gt;
+
+&lt;p&gt;For many OEM systems, using a built-in web server in a PLC can save on hardware costs, software costs, and give you a flexible and powerful way to interact with your equipment. You can avoid the hassle of maintaining a database for storing historical data and still give your users access to the information they need to operate most effectively.&lt;/p&gt;
+
+&lt;p&gt;By using web-based development frameworks, you can quickly develop a state-of-the-art, eye-popping system to give you a huge head start on some of the other interface options available to you.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;What is a web server?&lt;/h4&gt;
+
+&lt;p&gt;A web server is simply software you can access with a web-browser. It acts as the gateway between your browser and any underlying systems such as a database, and returns information to you in the form of a web-site. When you access your favorite news site, their web server generates the articles and sends them to your browser. When you configure the web server in your S7-1200 or S7-1500 PLC, it will give you access to datalogs, custom configured web pages you can use for trends, HMI functionality, dashboards, or even recipes.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s dive into the process of configuring the web server in your PLC and show you how to use it in some powerful ways.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;Enabling the web server&lt;/h4&gt;
+
+&lt;p&gt;The first step is to enable the web server. After opening your application, go to your PLC&#39;s Device Configuration menu, select the Web server item in the tree, and check &quot;Activate Web server on all modules on this device&quot;. Compile your project and download to the processor:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After you have enabled the web server and downloaded to the PLC you can access the default page by navigating to your PLC&#39;s IP address in your browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the default website, you can view the Diagnostic Buffer for your PLC:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and you can access any data log files you may have stored in the PLC:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The real power of the web server comes into play when you enable user pages, or custom HTML pages you can use to interact with your PLC data, and generate things like trends and dashboard controls for detailed data analysis in your browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;Enabling user pages&lt;/h4&gt;
+
+&lt;p&gt;The first thing you need to do is create a directory to hold your user pages. In this case we are using a folder called S7_1200_Web on the C:\ drive. Create an HTML file in this directory and put some HTML in so we can verify everything is working properly. For testing this can be the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Save the HTML file as index.html and go back to your project. Scroll about halfway down to the Web Server menu in the Device Configuration tab to &quot;User-Defined Web Pages&quot; and enter the directory where your user pages are stored. Also enter the name of the default page, in this case we will use index.html. You can also enter your application name which will become part of the URL used to access your user pages.&lt;/p&gt;
+
+&lt;p&gt;You will also need to add the file extensions we will be using to the &quot;Advanced&quot; section to enable to PLC to generate the proper program blocks so you can access your pages. Typically these will be either .htm or .html, for html pages and .js for javascript files. Enter these extensions in the &quot;Files with dynamic content&quot; box under &quot;Advanced&quot;&lt;/p&gt;
+
+&lt;p&gt;By default the PLC will use DB333 and DB334 and so on to store the contents of your user pages. As you add more pages to the directory it will increment the DB number as necessary. If you would like to use a different DB number you can configure these in the &quot;Advanced&quot; section of the Web server configuration, just below the &quot;User Pages&quot; section.&lt;/p&gt;
+
+&lt;p&gt;Once you have filled out these sections, click the &quot;Generate Blocks&quot; button to generate the program blocks the PLC will use to store the HTML from your user pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_6.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will then see the program blocks created, in this case DB333 and DB334&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_7.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The final step to enable user pages is to add the WWW function to your logic. Specify your Web DB number, in this case 333, and a tag for the return value, then compile and download to the processor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_8.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have downloaded your logic with the WWW function, you will see a link to the default user page under &quot;User Pages&quot; on the PLC&#39;s default web page. You can also navigate to the page directly with the following URL format: http://{ip address of PLC}/awp/{Application Name}/{User Page}.html, or for our PLC http://192.168.0.1/awp/WebDev/index.html&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_9.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigating to the page will display the HTML page you requested, in this case we will see a basic trend configured based on a data log file in the PLC. This functionality will be covered later in this article.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_10.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;Building Powerful User Pages&lt;/h4&gt;
+
+&lt;p&gt;With user pages enabled in the PLC&#39;s web server, we can now expand into a lot of different areas. Dashboards, reports, trends, API&#39;s, the list goes on. What you choose to do with your pages is entirely dependent on your needs, and we will cover some of the common use cases we have implemented on most of the web-based systems we have developed over the years.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;General Concepts&lt;/h4&gt;
+
+&lt;p&gt;While it is possible to include all of your HTML and Javascript/jQuery code in your user pages directory and on the PLC itself, you might find it beneficial to host the files on another machine on the network, or use a content delivery network (CDN) to deliver the files you need for client-side functionality. Including these files directly in the PLC can cause to large amounts of memory usage, potentially impacting your data logging capabilities. Hosting this files on a different machine or CDN alleviates these issues and can also speed up the load time of your pages. This article will demonstrate how to use a CDN to deliver the jQuery libraries we will be using.&lt;/p&gt;
+
+&lt;p&gt;In line with hosting libraries outside of the PLC, we have found hosting a Javascript file on another machine and updating it during development saves a lot of time compared to generating blocks for user pages, compiling, downloading the processor, and rebooting every time a change is made. Using a different machine allows you to edit the Javascript file on the machine, save it, and simply refresh the browser to update the page with any changes. This results in a significant time savings over the course of developing and testing a full application.&lt;/p&gt;
+
+&lt;p&gt;We will cover the various functionality components below, in no particular order. At this point you can jump around the article to find what interests you most and work through the exercise without a whole lot of overlap between sections.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;Basic Trending&lt;/h4&gt;
+
+&lt;p&gt;If you are using the data log functionality of the S7-1200 or the S7-1500, one powerful tool you can use in your user pages is trending. Given the relative simplicity of most web servers, including the one in our PLC, we will focus on implementing client based trending tools through the use of Javascript and jQuery.&lt;/p&gt;
+
+&lt;p&gt;There are a variety of frameworks you can use for this, D3, High Charts, Google Charts, or our framework of choice Flot Charts. They all have their pros and cons, some including license ramifications, open-source vs. closed source, and free vs. paid. We have found Flot Charts to work extremely well for our needs, typically trending time-stamped process data. If you have any questions about our experience with any of the tools we have used, please feel free to reach out and ask.&lt;/p&gt;
+
+&lt;p&gt;The basic overview of this section is we will generate a date/time range using date/time pickers on the page. When the user selects the date range and clicks the &quot;Update&quot; button we will request a list of data log files and based on their name, including the date/time the logs began, will select the appropriate file, parse its contents into the format required by Flot and will then display the trend to the user with the correct date/time range on the X-Axis.&lt;/p&gt;
+
+&lt;p&gt;First we will go through the process of generating a basic trend with fixed data set. From there we will get into dynamic datasets with date range selections. To demonstrate basic trending our PLC has a small log file tracking the run status of two pumps as seen below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_11.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Data logs are stored as .CSV files in the S7-1200 and S7-1500 PLCs. This format defines the value of each column in the first line, with each column separated by a comma. Subsequent lines represent values at a particular timestamp, again with each column separated by a comma. This format, while useful for storage and analysis using a program like Excel, isn&#39;t directly useful for the approach we will take to generating a trend. The first step we need to accomplish is to break down the CSV data into something Javascript can deal with more effectively.&lt;/p&gt;
+
+&lt;p&gt;To acoomplish this, we will use a jQuery library called jQuery-CSV. This library allows us to break the CSV file down into a list of objects we can easily manipulate to work with using Javascript.&lt;/p&gt;
+
+&lt;p&gt;Following the tip to load libraries from a CDN, we will load the library from a CDN in the header of our HTML page. Keep in mind you can use any CDN you prefer, store the file on another machine on the network, or even put it directly in the PLC as necessary. Since we will be using jQuery libraries, we will also include the jQuery library itself:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_12.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We will do the same thing for the Flot Charts library, and for development purposes, the development version of the Javascript file we will use for testing. Since we are dealing with time series data, we will also include the Flot Time library, and the Moment.js library to simplify working with different date formats:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_13.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For Flot to function properly, we will need to add a &amp;lt;div&amp;gt; element to our page, and specify the width and height for our trend, and give it an ID so we can refer to it later in our Javascript code:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_14.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the basic format we need to display a single trend on a page, so we are done with our HTML page for now. Save it to your user pages folder, generate blocks, and download to the processor. We will do the rest of the work to generate a trend in the s7_Demo.js file linked to in the header.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s go through the code used to generate a trend line by line. If you are familiar with Javascript and jQuery this will be pretty straightforward, if not it will cover the basics of what is required for this piece of functionality, and you can find plenty of resources online to go as in-depth as you like on the language as a whole.&lt;/p&gt;
+
+&lt;p&gt;The first line of code tells the browser to execute this code only after the pages has completely loaded. This is to make sure all of the Javascript files and jQuery libraries are ready, and the page itself is loaded and ready for us to interact with it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_15.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next section defines and AJAX call to our server. This loads data from the specified URL without the user having to interact with the page, and doesn&#39;t require the page to be refreshed. We are specifying the specific URL for our datalog file in the URL parameter, telling the server we are requesting or &quot;getting&quot; data, specifying we want expect the data to be returned as text, and are defining the function we will execute when the AJAX call as successfully completed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_16.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The next line begins the code executing once our AJAX call is complete. The first step is to take the results from our AJAX call, in this case the data in the .CSV file, and use the jQuery-CSV library to convert it to a list of objects Javascript can more easily understand. This is accomplished by calling the jQuery function to convert a CSV file into objects as described in the jQuery-CSV documentation. Once this function has executed, we can use the variable &quot;results&quot; to generate the data we will use for the trend.&lt;/p&gt;
+
+&lt;p&gt;The next two lines as simply declaring variables we will use to store the data for each of our trend lines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_17.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The meat of our Javascript code, where we take the data from the objects we generated from the CSV file and parse them for our trend comes next. We are using a for loop to iterate over all of the objects. Within this loop we are pushing data onto the arrays we defined previously. This simply adds a new element onto each array for each object in the list.&lt;/p&gt;
+
+&lt;p&gt;The format Flot requires for trend data is an array of elements of the form [x value, y value]. For our trend we want the x-axis to display the timestamp, and the y-axis to display the value of each dataset at that time. Flot requires the timestamp data to be in a certain format, so we will have to manipulate the data in our object appropriately.&lt;/p&gt;
+
+&lt;p&gt;The innermost portion of this function is adding together the &quot;Date&quot; and &quot;UTC Time&quot; columns from our object, with a space separating them. This gives us a human readable timestamp of the format &quot;Month/Day/Year Hours:Minutes:Seconds&quot;. To turn this into the format Flot expects (milliseconds since January 1, 1970, 00:00:00) we use the simply use the parse function of the Date type in Javascript as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/s7_1200_SBS_18.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This takes care of the x-axis value, for the y-value we specify the specific data point in our object, in this case Pump1_On or Pump2_On and include it in our elements to be pushed onto the appropriate array.&lt;/p&gt;
+
+&lt;p&gt;The final piece of code except for closing brackets/parentheses is to generate the plot itself. To accomplish this we call the .plot() function of the Flot library. We pass the ID value of the div we created in our HTML file as the container for the trend to be put in to, specify an array of the variables we want to use for trend lines, in this case the variables we worked with in the previous section of code, and specify a mode of &quot;time&quot; for the x-axis.
+
+&lt;img src=&quot;/img/s7_1200_SBS_19.png&quot; /&gt;
+
+&lt;p&gt;This generates a basic trend on our page:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_20.png&quot; /&gt;
+
+&lt;br /&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;Advanced Trending&lt;/h4&gt;
+
+&lt;p&gt;With the basics of trending covered, let&#39;s dive into some more advanced functionality. For our purposes the next step is to add a couple of date/time pickers to our page so we can select a start and end time for our trend. This lets your users narrow down the amount of data they are viewing at any given time and allows them to easily view historical data.&lt;/p&gt;
+
+&lt;p&gt;Much like trend tools, there are a ton of options for date, time, and both date and time selection options. These can be simple HTML dropdown controls, or more complex jQuery components with additional functionality. For this tutorial we will use a jQuery date/time picker we have found to be very mobile friendly:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_21.png&quot; /&gt;
+
+&lt;p&gt;This date/time picker control is an add-on to an existing library of user interface controls called jQuery-UI. To make it functional we need to include the jQuery-UI library, as well as the files for this partlcular control. For the rest of this article, assume we will be adding the required lines to our existing file, to save some space we won&#39;t keep repeating previous lines of code:&lt;/p&gt;
+
+
+&lt;img src=&quot;/img/s7_1200_SBS_13.png&quot; /&gt;
+
+&lt;p&gt;Notice we are also including references to two CSS files, these contain all of the styling for the various controls and will start to become more prevalent in later sections.&lt;/p&gt;
+
+&lt;p&gt;To place a date/time picker on the page we need to add a div for each date/time picker we want to use, give it an ID so we can access it in Javascript, and then write the Javascript code we need to generate the control. Let&#39;s start with the HTML and break it down into further detail from there:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_23.png&quot; /&gt;
+
+&lt;p&gt;This code is pretty basic, we have an input for each of the datetime pickers, and an update button we will use to trigger a page update when the user changes the date range.&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_24.png&quot; /&gt;
+
+&lt;p&gt;This code will go right below the $(function() call so it is the first thing to be executed when the page loads. This is going to be a little more involved than simply creating the date/time picker to give us additional functionality by pre-populating the pickers.&lt;/p&gt;
+
+&lt;p&gt;The first two lines define variables and set them to a value of the current time/date. The next line sets the startDate variable&#39;s hour to one hour ago, and the next line is there for posterity in case you wanted to choose a different range than simply the previous hour. The final two lines create the date/time picker and pre-populate their values with the start and end dates, with the correct formatting specified by the Moment.js library. Now when you load the page you will have two date/time pickers, with one at the current time, and one at the current time minus an hour.&lt;/p&gt;
+
+&lt;p&gt;With the date/time pickers set up, we can put them to use. This will be one of the more complex portions of the process so far and will cover a lot of different concepts. The basic outline is the page will load with default values for the date/time range, or user will make an adjustment to the range and click the update button. We will get a list of the datalogs and their &quot;last modified&quot; timestamp. We will figure out which datalog best matches with the date range, and load it the same way we did in the previous section. We will leave some items for your own future exploration such as more in-depth interface design and working with date/time ranges spanning multiple data logs.&lt;/p&gt;
+
+&lt;p&gt;First we need to know when the user clicks the update button. Using jQuery this is extremely easy using the onClick() function:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_25.png&quot; /&gt;
+
+&lt;p&gt;This code does a couple of things, it checks to make sure the date/time pickers have a value and if they do, it calls the updateTrendData() function. If they are empty it alerts the user and tells them to make a selection. We can accomplish the same functionality when the page loads by calling the updateTrendData() function after the date/time pickers have been created as in the previous section.&lt;/p&gt;
+
+&lt;p&gt;The meat of this section is what happens in the updateTrendData() function. The first portion of this function needs to determine what datalog file we need to use to populate our trend, based on when it was last edited in relation to other datalogs that may exist. We are going to make an assumption to simplify development. The assumption is datalogs will only be modified as data is added to them, and once a new datalog has been created, we will assume its start time is later in time than the previous datalog&#39;s last modification. This allows us to use the datalog information available by default to narrow down the file we need to load without having to go into the PLC code and do anything like provide a timestamp as part of the datalog name when it is created. In this case simple is better.&lt;/p&gt;
+
+&lt;p&gt;How do we get the timestamp data from the datalogs in the PLC? If you navigate through the built-in pages in the S7 web server you will find a list of the data logs, with an associated timestamp of when they were last modified. What we will do is load this page using an AJAX call like before so the user doesn&#39;t need to interact with the page to load the data and no page refresh is required. When the page is accessed using AJAX we can then search through the HTML to find the timestamps based on the CSS class of the table and the corresponding cell within the the table and iterate over those to build our list of timestamps. Once the list is created we can do some simple comparisons to find the closest matching datalog file and call the function to load it the same way as before.&lt;/p&gt;
+
+
+&lt;p&gt;We are going to make some big assumptions for this tutorial. First, we will assume you have datalogs being generated on a regular basis. Second, we will assume your datalogs are only storing a relatively small amount of data, say 1 hour. Lastly, we are assuming you will only want to look at the data contained in one file. It is entirely possible, with some additional code, to view data from multiple files at once, use files for any length of time, and do things like &quot;real-time&quot; updates. Functionality in those areas is something we can discuss further, but are out of this article&#39;s scope.&lt;/p&gt;
+
+&lt;p&gt;The first step is to get a list of the datalog files stored in the PLC. We will use AJAX again to accomplish this task. Navigating through the standard webpages, we find a list of data log files and the URL we can use to access the list:
+&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_26.png&quot; /&gt;
+
+&lt;p&gt;Using this URL in our AJAX call:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_26a.png&quot; /&gt;
+
+&lt;p&gt;Upon successfully loading the page, we will return its contents as text to our AJAX function for further parsing and manipulation. First we will declare a variable, set it equal to the response text, and wrap it up with &amp;lt;html&amp;gt; tags so we can manipulate the data with jQuery:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_27.png&quot; /&gt;
+
+&lt;p&gt;Next we will  declare variables to hold our start and end timestamps from the datetimepickers.&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_28.png&quot; /&gt;
+
+&lt;p&gt;The datalog file information is stored in a table. We will simply copy this to our page to simplify the code for this tutorial, and hide the table so it doesn&#39;t clutter up the page:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_29.png&quot; /&gt;
+
+&lt;p&gt;Next we will iterate through the rows of the table, checking to see if the row contains a timestamp. If it does, we will parse it into the Javascript format and compare it to our start and end timestamps to see if it is in our desired range. If it is in the range we will get the filename and generate the trend, if it is not in our range we will simply move to the next row in the table. Most of this code is similar to what we have seen previously, the main difference is navigating the table.&lt;/p&gt;
+
+&lt;p&gt;This function is called in two places. First it will be called when the page loads, and should load the latest datalog and display it on the trend. The second place it is called is when the user clicks on the &quot;Update&quot; button next to the datetimepickers. In this function we are iterating through the rows of a table. By viewing the page source in our browser, we can see what the various IDs and CSS classes each cell in the table has applied to it. Using this information we can easily find the timestamp and filename in the row using jQuery. First we will use the .find() method to determine if the timestamp cell has a valid timestamp using CSS classes, and the length of the text in the cell:&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_30.png&quot; /&gt;
+
+&lt;p&gt;If we do have a valid timestamp we wlll parse it as before and check to see if it is in our desired range. If it is, we will navigate to the filename cell in this row and pass the filename to our function to generate the trend.&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_31.png&quot; /&gt;
+
+&lt;p&gt;In the previous section we demonstrated loading a single datalog file. In this section we moved this functionality into a separate function, including variables for our date range to limit the amount of data we are loading from the datalog. This is the same code as before, wrapped up in a function, with a check on the timestamp in the datalog to see if we need to include it in our trend. We are calling this function from the updateTrend() function in the previous section.&lt;/p&gt;
+
+&lt;img src=&quot;/img/s7_1200_SBS_32.png&quot; /&gt;
+
+&lt;br /&gt;
+
+&lt;h4 style=&quot;color:#f64100;&quot;&gt;Wrapping Up&lt;/h4&gt;
+
+&lt;p&gt;Now you have the functionality in place for you to load datalogs onto your trend using a user-selectable date range. Simply changing the date range and clicking &quot;Update&quot; will go through the datalogs in the PLC, find the appropriate file and display it on the trend.&lt;/p&gt;
+
+&lt;p&gt;Where can you go from here? One option would be to simplify the process by removing the date range selection, instead generating a table of the datalogs and allowing the user to click on a particular file to display it on the trend. Another option giving you more flexibitly along with more backend complexity would be to load data from multiple datalogs to fill your date range with any data in the PLC. A third option would be the addition of &quot;real-time&quot; trending, allowing users to see the most recent data as it is written to the PLC. The Flot website has excellent examples of this functionality, and if you have any questions on how to implement any of these ideas or any you have, we are always happy to help.&lt;/p&gt;
+
+
+
+
+
+
+
+&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/06/16/s7-1200-and-s7-1500-webserver-step-by-step-trends.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/06/16/s7-1200-and-s7-1500-webserver-step-by-step-trends.html</guid>
+        
+        <category>Education</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>How To Gain Better Visibility of  Your Supply Chain</title>
+        <description>&lt;p&gt;Lean manufacturing is one of the best ways to boost productivity while cutting costs, but taking the first step to get there can seem overwhelming without access to the right information.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Make Sense of All That Data&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/paperwork.jpg&quot; width=&quot;380px&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Your Data Tells Your Story&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;The key to taking the first step towards a lean supply chain is getting a better handle on your process data. While  no one will argue against &quot;the more data the better&quot;, mass amounts of data won&#39;t do you any good if you&#39;re left to make heads or tails of it on your own. The best way to leverage data to your advantage is by aggregating it into one place from the get go! Whether it&#39;s process data from a historian, lab data from your QA department, or shipping information from your supply chain, everything should be working together to give you one picture of how your business is running.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;What Does Visibility Look Like In Practice?&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;Whether you&#39;re starting up or have been running your operation for years, your process will eventually drive you towards SCADA/MES/MOM systems. &lt;a href=&quot;http://corsosystems.com/mesbusiness.html&quot;&gt;Manufacturing Execution Systems&lt;/a&gt; are the glue that tie your process together. Everything from process data, to scheduling, to your ERP system will work as one. MES systems take your raw data and turn it into information you can use to make better decisions to run your operation. Imagine sitting down at your desk, logging into a dashboard and seeing everything you need to know about your business in one screen, as well as the health of your process relative to the rest of your business. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/imagechart.jpg&quot; width=&quot;480px&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Identify Opportunities To Reduce Costs&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;One of the easiest ways to reduce operational costs is to build transparency into your process. What if everyone who was entitled to inventory and material levels had access to it remotely along with other process data? What if everyone responsible for managing your organization was looking at the same picture of your process? Giving the right people the right data, at the right time is what drives smart decision making. In order to deliver industry and customer specific solutions, staying on top of KPIs is crucial, and a white-board isn&#39;t going to give you information back.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Putting It All Together&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;While these concepts can be overwhelming, implementing SCADA and MES systems can be a painless process that doesn&#39;t break the bank. With recent developments in web-based and cloud technologies, customized solutions work in tandem with the industry standard infrastructure you already have in place to give you a bird&#39;s eye view of your business. Think of these customized solutions as adding a layer on top of your existing infrastructure.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Visualize A More Efficient Business&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;The beauty of cloud-based solutions is that they&#39;re as flexible as you need them to be. Better visibility of your process can look however you would like it to look. Anything from a simple dashboard that can be accessed from from your phone or computer with basic information you want to see, to a rich site with real-time data, trends, and notifications that are pushed to your phone based on custom parameters you set. The possibilities are endless and are only limited by your imagination, and the resources you have around you.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 May 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/05/13/supply-chain-visibility.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/05/13/supply-chain-visibility.html</guid>
+        
+        <category>Education</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Simple - Save yourself time, resources, and hassle</title>
+        <description>&lt;p&gt;While researching and writing the first parts of an upcoming series on the High Performance HMI methodology, a theme emerged.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Simple&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/simple.jpg&quot; width=&quot;380px&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking from a high-level view of everything you might encounter in industry, the concept of simplicity is widely applicable.&lt;/p&gt;
+
+&lt;h4&gt;What is simple?&lt;/h4&gt;
+
+&lt;p&gt;Simple is not getting bogged down by unnecessary complexity. Simple is making things work in a way anyone can follow them. Simple is leaving your ego at the door.&lt;/p&gt;
+
+&lt;h4&gt;When does simple work?&lt;/h4&gt;
+
+&lt;p&gt;Simple works when things get crazy and when things are quiet. Simple solutions are easy to understand when you are under pressure and need to track down the root cause of an alarm. When you come back to a piece of code a year later, simple solutions don&#39;t take you 20 minutes to unravel and understand. Simple works just as well as complex when things are at steady-state.&lt;/p&gt;
+
+&lt;h4&gt;Where can simple be used?&lt;/h4&gt;
+
+&lt;p&gt;Just about anything can be done more simply. It may take some work to unravel all of the effort it takes to maintain a complex system, and a new way of thinking about new systems, however these are easy hurdles to jump over.&lt;/p&gt;
+
+&lt;h4&gt;Why simple?&lt;/h4&gt;
+
+&lt;p&gt;Simple saves you time by making it easy to understand and modify. Simple saves you headaches by not locking you into any one supplier, programmer, or paradigm. Simple saves you resources by not requiring as many changes to get it working.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Simple makes it easy to do things the right way, the first time.&lt;/b&gt;&lt;/h4&gt;
+
+</description>
+        <pubDate>Mon, 04 May 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/05/04/simple.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/05/04/simple.html</guid>
+        
+        <category>Education</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Jaxon Energy Hydrotreater</title>
+        <description>&lt;div class=&quot;row&quot; style=&quot;text-align:center;&quot;&gt;
+&lt;h3&gt;Jaxon Energy Hydrotreater - Jackson, MS&lt;/h3&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+		&lt;hr /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+	&lt;p&gt;Jaxon Energy teamed up with Corso Systems to develop a new control and information system for its Jackson, MS hydrotreating plant. Jaxon implemented Rockwell Automation&#39;s FactoryTalk software suite for robust operator control of the plant and secure remote access to real-time information.&lt;/p&gt;
+
+	&lt;h4&gt;&quot;We have worked with other integrators in the past, but Corso took the time to &lt;b style=&quot;color:#f64100;&quot;&gt;understand our needs&lt;/b&gt;, and proposed a solution that &lt;b style=&quot;color:#f64100;&quot;&gt; was custom designed just for us. &lt;/b&gt; The system made our lives easier and enabled us to do more than we could in the past.&quot;&lt;/h4&gt;&lt;p style=&quot;text-align:right;&quot;&gt;- Randy Soule, Co-Owner, Jaxon Energy&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+		&lt;hr style=&quot;margin-bottom:-5px;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;dic class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-11 col-md-offset-1&quot;&gt;
+		&lt;h4 style=&quot;margin-left:-10px;&quot;&gt;The Process&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/dic&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-4 col-md-offset-1&quot;&gt;
+		&lt;img src=&quot;/img/jaxonplant.jpg&quot; width=&quot;100%&quot; /&gt;		
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+	&lt;p&gt;Hydrotreating is a process removing contaminates from light end distillates generated as part of petroleum refining. Distillates are subjected to  pressures and temperatures then filtered through catalyst agents with hydrogen gas to remove contaminants. The cleaned petroleum oil is fractionated into diesel and gasoline products. Contaminates are thermally destroyed in oxidizers resulting in &lt;b style=&quot;color:#f64100;&quot;&gt;no&lt;/b&gt; remaining &lt;b style=&quot;color:#f64100;&quot;&gt;residue&lt;/b&gt; or &lt;b style=&quot;color:#f64100;&quot;&gt;byproducts&lt;/b&gt;.&lt;/p&gt;
+
+	&lt;p&gt;Most refineries choose not to upgrade these stranded light end petroleum distillates due the low volume produced at any single facility. The Jaxon Energy business model aggregates stranded distillates from multiple refineries or other producers to achieve economically viable volumes of raw material.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+		&lt;hr style=&quot;margin-bottom:-5px;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;dic class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-11 col-md-offset-1&quot;&gt;
+		&lt;h4 style=&quot;margin-left:-10px;&quot;&gt;The Challenge&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/dic&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-6 col-md-offset-1&quot;&gt;
+		&lt;p&gt;This plant&#39;s sister facilities have a DCS as the foundation of their control systems. Due to the high initial investment, ongoing difficulties in maintaining DCS systems, and the volatile economic landscape of the oil industry, Jaxon Energy decided to move to a &lt;b style=&quot;color:#f64100;&quot;&gt;PLC-based&lt;/b&gt; system for this facility.&lt;/p&gt;
+
+		&lt;p&gt;The new system had to offer similar functionality to the DCS system in the operator interface, enable &lt;b style=&quot;color:#f64100;&quot;&gt;safe operation&lt;/b&gt; of the facility,  provide &lt;b style=&quot;color:#f64100;&quot;&gt;powerful data collection&lt;/b&gt; and &lt;b style=&quot;color:#f64100;&quot;&gt;analysis&lt;/b&gt; tools.&lt;/p&gt;
+
+		&lt;p&gt;The control system, in conjunction with proper catalysts had to be flexible enough to handle almost &lt;b style=&quot;color:#f64100;&quot;&gt;any usable raw material&lt;/b&gt; to produce a &lt;b style=&quot;color:#f64100;&quot;&gt;wide range&lt;/b&gt; of &lt;b style=&quot;color:#f64100;&quot;&gt;finished products.&lt;/b&gt;.&lt;/p&gt;
+
+		&lt;p&gt;Changes to Jaxon Energy&#39;s operational model with this facility required &lt;b style=&quot;color:#f64100;&quot;&gt;remote access&lt;/b&gt; to &lt;b style=&quot;color:#f64100;&quot;&gt;all components of the system&lt;/b&gt;, for both operations management and maintenance planning. In addition, Jaxon Energy&#39;s business model required remote access to product quality information, operating parameters, and dissemination of raw vs. finished material reports to their suppliers and customers.&lt;/p&gt;
+
+		
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;img src=&quot;/img/tankfarm.jpg&quot; width=&quot;100%&quot; /&gt;		
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+		&lt;hr style=&quot;margin-bottom:-5px;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;dic class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-11 col-md-offset-1&quot;&gt;
+		&lt;h4 style=&quot;margin-left:-10px;&quot;&gt;The Strategy&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/dic&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-4 col-md-offset-1&quot;&gt;
+		&lt;img src=&quot;/img/plccabinet.jpg&quot; width=&quot;100%&quot; /&gt;		
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-6&quot;&gt;
+
+	&lt;h4 style=&quot;margin-top:-5px;&quot;&gt;&quot;This was a big project and we made a lot of changes with this facility. Repeating what we had done in the past simply wasn&#39;t going to cut it.&quot;&lt;/h4&gt;&lt;p style=&quot;text-align:right;&quot;&gt;- Randy Soule - Co-Owner, Jaxon Energy&lt;/p&gt;
+	&lt;br /&gt;
+
+	&lt;p&gt;To save on investment, startup, and ongoing maintenance costs, Jaxon Energy decided to use a PLC and HMI based control system built on the Allen Bradley and Rockwell Automation product lines, leveraging the FactoryTalk software suite. In addition Corso Systems designed a custom, web-based solution for material tracking and QA/QC information. This gave operators a way to log quality data and enabled plant management to understand their process on a deeper level and make smarter decisions. This platform also gave Jaxon Energy a fully integrated system with &lt;b style=&quot;color:#f64100;&quot;&gt;more power &lt;/b&gt; than the DCS they had used in the past, at &lt;b style=&quot;color:#f64100;&quot;&gt;less than half&lt;/b&gt; the cost.&lt;/p&gt;
+
+	&lt;p&gt;One of Jaxon&#39;s design requirements was to use &lt;b style=&quot;color:#f64100;&quot;&gt;standard&lt;/b&gt; instruction sets and graphics for their process equipment. This requirement was met with Rockwell&#39;s PlantPAX framework. PlantPAX enables standard graphics, including detailed interlock status directly in the HMI, standard logic in the PLC, and gave Jaxon Energy a familiar, yet &lt;b style=&quot;color:#f64100;&quot;&gt;more user-friendly&lt;/b&gt;, look and feel to systems in use at their other plants.&lt;/p&gt;
+
+	&lt;p&gt;FactoryTalk Historian &amp;amp; VantagePoint was chosen as a powerful information and analytics system, meeting Jaxon&#39;s requirements for Excel reporting while adding remote access to their information. Remote access to the HMI with full visual capabilities was accomplished using Rockwell&#39;s FactoryTalk ViewPoint software.&lt;/p&gt;
+	&lt;p&gt;The final piece of the puzzle was a custom solution built by Corso System on the ASP.NET MVC platform, giving Jaxon the ability to track incoming raw material shipments, in-process material, and finished product shipments. The system tracks the amount of material in any portion of the process, while also enabling LIMS functionality to track material conditions and &lt;b style=&quot;color:#f64100;&quot;&gt;quality&lt;/b&gt;.&lt;/p&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
+		&lt;hr style=&quot;margin-bottom:-5px;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;dic class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-11 col-md-offset-1&quot;&gt;
+		&lt;h4 style=&quot;margin-left:-10px;&quot;&gt;The Results&lt;/h4&gt;
+	&lt;/div&gt;
+&lt;/dic&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6 col-md-offset-1&quot;&gt;
+
+	
+	&lt;p&gt;Jaxon Energy is able to operate the plant &lt;b style=&quot;color:#f64100;&quot;&gt;24x7&lt;/b&gt;, processing up to &lt;b style=&quot;color:#f64100;&quot;&gt;60,000 gallons of product a day&lt;/b&gt;, with only &lt;b style=&quot;color:#f64100;&quot;&gt;two operators&lt;/b&gt; on each shift. Remote access to all of the plant&#39;s systems enables Jaxon to manage operations from their Reno, NV headquarters, &lt;b style=&quot;color:#f64100;&quot;&gt;reducing overall operating costs.&lt;/b&gt;.&lt;/p&gt;
+
+	&lt;p&gt;Moving away from DCS controls saved Jaxon over 50% on initial investment costs, with reduced start-up/commissioning duration &amp;amp; increased functionality.&lt;/p&gt;
+
+	&lt;p&gt;The PLC/HMI, FactoryTalk Historian &amp;amp; VantagePoint, combined with the product tracking/LIMS system, give Jaxon a fully-integrated solution. Raw material is tracked from the supplier, all the way through to the final customer, with automatic Bill of Lading generation, production reporting, and quality evaluation notifications for key engineering staff.&lt;/p&gt;
+
+	&lt;br /&gt;
+
+	&lt;h4&gt;&quot;Corso Systems &lt;b style=&quot;color:#f64100;&quot;&gt;raised the bar&lt;/b&gt; on what we expect from our partners.&quot;&lt;/h4&gt;&lt;p style=&quot;text-align:right;&quot;&gt;- Ron Bell, Director of Operations, Jaxon Energy&lt;/p&gt;
+
+
+	&lt;/div&gt;
+	&lt;div class=&quot;col-md-4&quot;&gt;
+		&lt;img src=&quot;/img/controlroom.jpg&quot; width=&quot;100%&quot; /&gt;		
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;&lt;hr /&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;text-align:center&quot;&gt;
+&lt;h4&gt;&lt;b&gt;For information on other ways we have helped companies like Jaxon Energy:&lt;/b&gt;&lt;/h4&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://corsosystems.com/case_studies&quot; class=&quot;btn btn-cta&quot;&gt;Check Out Our Case Studies&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/04/27/jaxon-energy-hydrotreater.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/04/27/jaxon-energy-hydrotreater.html</guid>
+        
+        <category>Case Study</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Hydrotreater Process Control, Analytics, and LIMS Systems</title>
+        <description>
+</description>
+        <pubDate>Mon, 27 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/casestudy/2015/04/27/hydrotreater-process-controls.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/casestudy/2015/04/27/hydrotreater-process-controls.html</guid>
+        
+        <category>Oil &amp; Gas</category>
+        
+        <category>Process Control</category>
+        
+        <category>HMI/PLC</category>
+        
+        
+        <category>CaseStudy</category>
+        
+      </item>
+    
+      <item>
+        <title>Virtual Machines and the Plant Floor</title>
+        <description>&lt;h3&gt;Technology is &lt;b style=&quot;color:#f64100;&quot;&gt;constantly changing&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;Computers are more powerful than ever. You can access just about anything in the world on your phone, soon even your wrist.&lt;/p&gt;
+
+&lt;p&gt;In the manufacturing world computer hardware has overcome the requirements of most software packages. This means when you need to buy a new computer, instead of running it to the max like you would have 3 or 4 years ago, you may only be using &lt;b&gt;10-20%&lt;/b&gt; of the hardware&#39;s capacity.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;www.flickr.com/photos/calliope/3474510093/&quot;&gt;&lt;img src=&quot;/img/vm.jpg&quot; width=&quot;320px&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Companies like VMWare and Microsoft have developed a way to utilize the unused resources using &lt;b&gt;virtual machines&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Virtual Machines are computers running on software designed to imitate physical hardware.&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;In the same way you can run multiple programs at one time on your PC, with virtual machines, you can run &lt;b&gt;multiple computers&lt;/b&gt; on &lt;b&gt;one PC&lt;/b&gt; &amp;mdash; at &lt;b&gt;the same time&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Virtual machines used in this way let you:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Utilize more of your hardware&#39;s resources&lt;/li&gt;
+	&lt;li&gt;Consolidate multiple physical computers into one&lt;/li&gt;
+	&lt;li&gt;Swap between computers with no downtime&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Decrease&lt;/b&gt; IT Overhead&lt;/h3&gt;
+
+&lt;p&gt;When you need to set up a new machine, you call IT, requisition the hardware, and let them spend a day or two installing all of the software you need.&lt;/p&gt;
+
+&lt;p&gt;With a virtual machine you can get a new computer up and running by simply copying a file and opening it.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+&lt;h4 style=&quot;color:#00aa5d;&quot;&gt;Have an old computer you need for only one piece of equipment?&lt;/h4&gt;
+
+&lt;p&gt;Replace it with a virtual machine&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#00aa5d;&quot;&gt;Need multiple versions of your software but they don&#39;t play well together?&lt;/h4&gt;
+
+&lt;p&gt;Use virtual machines&lt;/p&gt;
+
+&lt;h4 style=&quot;color:#00aa5d;&quot;&gt;Want to test a new software version without breaking anything?&lt;/h4&gt;
+
+&lt;p&gt;Do it with a virtual machine&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;b style=&quot;color:#f64100;&quot;&gt;Leveraging&lt;/b&gt; Virtual Machines&lt;/h3&gt;
+
+&lt;p&gt;What systems do you need to maintain your process effectively? Maybe you have different PLCs throughout the plant, different HMI systems, or some specialty software for calibrating instruments.&lt;/p&gt;
+
+&lt;p&gt;This is the situation we find ourselves in every day. Different customers have different systems and we need to be able to support any of them at a moment&#39;s notice.&lt;/p&gt;
+
+&lt;p&gt;Staying up to date with the latest releases is critical, and dealing with different versions of software without breaking existing installations can be a nightmare.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4&gt;Virtual machines &lt;b style=&quot;color:#f64100;&quot;&gt;eliminate&lt;/b&gt; these problems entirely.&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;We have virtual machines ready to go for any software we use. If we want to start working with a new package, we have machines with clean operating systems ready to go.&lt;/p&gt;
+
+&lt;p&gt;If a new software release is incompatible with an old version we create a new virtual machine to support it.&lt;/p&gt;
+
+&lt;p&gt;Think of us like a maintenance department covering a very wide array of systems. Would you want to make your maintenance department&#39;s life easier, with very little cost? Look into virtual machines.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 15 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://corsosystems.com/blog/2015/04/15/virtual-machines-and-the-plant-floor.html</link>
+        <guid isPermaLink="true">http://corsosystems.com/blog/2015/04/15/virtual-machines-and-the-plant-floor.html</guid>
+        
+        <category>Education</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

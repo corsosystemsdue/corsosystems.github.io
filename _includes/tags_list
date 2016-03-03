@@ -37,7 +37,7 @@ Usage:
 {% assign zz = tag[1] | where: "category", "CaseStudy" | sort %}
 {% if zz != empty %}
 
-<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag[0] | replace:'1234','' }}</a></li>
+<li class="pill"><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag.category }}-ref">{{ tag.category | replace:'1234','' }}</a></li>
 
  {% endif %}
 

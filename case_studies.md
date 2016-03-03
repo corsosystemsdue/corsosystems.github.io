@@ -7,13 +7,14 @@ exclude_from_search: true
 
 ---
 
-<script src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
-<script src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
+<script src="{{ ASSET_PATH }}/jquery.min.js"></script>
+<script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
 <div class="row">
   <div class="col-md-3" style="text-align:left;">
 <ul class="nav nav-pills nav-stacked">
   {% assign tags_list = site.tags %}  
   {% include tags_list %}
+  <li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ Premier Projects}}-ref">{{ Premier Projects }}</a></li>
 </ul>
 </div>
 

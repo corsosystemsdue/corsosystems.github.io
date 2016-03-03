@@ -1,4 +1,4 @@
-(function($) {
+ (function($) {
 
   var debounce = function(fn) {
     var timeout;
@@ -28,9 +28,9 @@
       this.$results = $(options.results);
       this.$entries = $(options.entries, this.$results);
       this.indexDataUrl = options.indexUrl;
-      this.index = this.createIndex();
       this.template = this.compileTemplate($(options.template));
-      
+      this.emptyMsg = options.emptyMsg;
+
       this.initialize();
     }
         
@@ -38,25 +38,10 @@
       var self = this;
       
       this.loadIndexData(function(data) {
-        self.populateIndex(data);
+        self.entries = $.map(data.docs, self.createEntry);
+        self.index = lunr.Index.load(data.index);
         self.populateSearchFromQuery();
         self.bindKeypress();
-      });
-    };
-    
-    // create lunr.js search index specifying that we want to index the title and body fields of documents.
-    LunrSearch.prototype.createIndex = function() {
-      return lunr(function() {
-        this.field('title', { boost: 10 });
-        this.field('body');
-        this.field('summary');
-        this.field('detail_summary');
-        this.field('focus');
-        this.field('drive');
-        this.field('results');
-        this.field('technology');
-        this.field('benefits');
-        this.ref('id');      
       });
     };
     
@@ -72,17 +57,6 @@
     // load the search index data
     LunrSearch.prototype.loadIndexData = function(callback) {
       $.getJSON(this.indexDataUrl, callback);
-    };
-    
-    LunrSearch.prototype.populateIndex = function(data) {
-      var index = this.index;
-          
-      // format the raw json into a form that is simpler to work with
-      this.entries = $.map(data.entries, this.createEntry);
-
-      $.each(this.entries, function(idx, entry) {
-        index.add(entry);
-      });
     };
 
     LunrSearch.prototype.createEntry = function(raw, index) {
@@ -125,7 +99,7 @@
     LunrSearch.prototype.search = function(query) {
       var entries = this.entries;
       
-      if (query.length < 2) {
+      if (query.length < 3) {
         this.$results.hide();
         this.$entries.empty();
       } else {
@@ -139,12 +113,12 @@
     
     LunrSearch.prototype.displayResults = function(entries) {
       var $entries = this.$entries,
-        $results = this.$results;
+          $results = this.$results;
         
       $entries.empty();
       
       if (entries.length === 0) {
-        $entries.append('<p>Nothing found.</p>');
+        $entries.append('<p>'+ this.emptyMsg +'</p>');
       } else {
         $entries.append(this.template({entries: entries}));
       }
@@ -177,9 +151,10 @@
   };
   
   $.fn.lunrSearch.defaults = {
-    indexUrl  : '/search.txt',     // Url for the .json file containing search index source data (containing: title, url, date, body)
+    indexUrl  : '/js/index.json',   // Url for the .json file containing search index data
     results   : '#search-results',  // selector for containing search results element
     entries   : '.entries',         // selector for search entries containing element (contained within results above)
-    template  : '#search-results-template'  // selector for Mustache.js template
+    template  : '#search-results-template',  // selector for Mustache.js template
+    emptyMsg  : 'Nothing found.'    // shown message if search returns no results
   };
 })(jQuery);
