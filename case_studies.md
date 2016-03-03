@@ -7,8 +7,8 @@ exclude_from_search: true
 
 ---
 
-<script src="{{ ASSET_PATH }}/jquery.min.js"></script>
-<script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <div class="row">
   <div class="col-md-3" style="text-align:left;">
 <ul class="nav nav-pills nav-stacked">
