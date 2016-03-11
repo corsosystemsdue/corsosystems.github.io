@@ -19,7 +19,7 @@ date: "08-03-2016"
 <p>We recently wrapped up a 2 day training course at the Siemens HMI Center of Competence facility in Plano TX. This class highlighted the latest and greatest changes in 3.14 including S7 Symbolic Addressing, a new script debugger, a game-changing update to the Ultralight Client, a new and improved wizard generation tool, and the inclusion of OPC HDA, among other things.</p>
 
 <br/>
-<a href="www.flickr.com/photos/calliope/3474510093/"><img src="/img/oapm.png" width="320px"/></a>
+<a href="http://corsosystems.com/img/oapm.png"><img src="/img/oapm.png" width="320px"/></a>
 <br/><br/>
 
 <p>The real star of the show for us was the functionality of the <b style="color:#f64100;">Plant Modeling</b> tool. This tool makes it as simple as possible to map datapoints to a model of the plant providing the backbone for MES integrations built on the ISA 95 Standard.</p>
