@@ -8,7 +8,7 @@ image: "/img/scadadays0.png"
 author: "Alex Marcy"
 author-email: "alex@corsosystems.com"
 blurb: "<p>Check out Corso Systems' time at the Siemens SCADA Days 2017 event in beautiful Las Vegas NV. </p>"
-date: "16-06-2015"
+date: "17-01-2017"
 ---
 
 <h4 style="color:#f64100;">Day 1 - Club KAASM</h4>
