@@ -1,0 +1,156 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="spark.js"></script>
+ <link rel="stylesheet" type="text/css" href="bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-theme.min.css.map">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css.map">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BrewSphere</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="row">
+<div class="col-xs-1"></div>
+  <div class="col-xs-2 col-md-2">
+
+  	<img style="border-radius:15px;" src="empty-beer-bottle.png"/>
+  	<div style="margin-top:-120px;background:#B4B4B4;height:120px;width:50px;margin-left:40px;"></div>
+    <span class="sparkline0"></span>
+    <div style="width:128px;">
+    
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+
+
+      </div>
+
+
+    </div>
+    <h3 style="text-align:center;width:128px;margin-top: -10px;color:#3f3f3f;">TANK 1</h3>
+    </div>
+  </div>
+  <div class="col-xs-2 col-md-2">
+  	<img style="border-radius:15px;" src="empty-beer-bottle.png"/>
+  	<div style="margin-top:-55px;background:#B4B4B4;height:55px;width:50px;margin-left:40px;"></div>
+    <span class="sparkline1"></span>
+    <div style="width:128px;">
+    
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+
+
+      </div>
+
+    </div>
+    <h3 style="text-align:center;width:128px;margin-top: -10px;color:#3f3f3f;">TANK 2</h3>
+    </div>
+  </div>
+  <div class="col-xs-2 col-md-2">
+  
+  	<img style="border-radius:15px;" src="empty-beer-bottle-cip.png"/>
+  <div style="margin-top: -113px; height:93px;text-align:center;width:128px;"><h1 class="CIP">CIP</h1></div>	
+    <span class="sparkline2"></span>
+    <div style="width:128px;">
+    
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+
+
+      </div>
+
+    </div>
+    <h3 style="text-align:center;width:128px;margin-top: -10px;color:#3f3f3f;">TANK 3</h3>
+    </div>
+  </div>
+  <div class="col-xs-2 col-md-2">
+  	<img style="border-radius:15px;" src="empty-beer-bottle.png"/>
+  	<div style="margin-top:-75px;background:#B4B4B4;height:75px;width:50px;margin-left:40px;"></div>
+    <span class="sparkline3"></span>
+    <div style="width:128px;">
+    
+    <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+
+
+      </div>
+
+    </div>
+    <h3 style="text-align:center;width:128px;margin-top: -10px;color:#3f3f3f;">TANK 4</h3>
+    </div>
+  </div>
+</div>
+
+
+<div style="background-image: url('empty-beer-bottle.png');"></div>
+<script>
+	$( document ).ready(function() {
+	
+
+$(".sparkline0").sparkline([100,98,97,96,96,96,95,95,94,94,94,93,93,92,92,91,91,91,91,91,88,87,86,85,84,84,84,83,83 ], {
+    type: 'line',
+    width: '115',
+    lineColor: '#009899',
+    fillColor: '#eeeeee',
+    spotColor: '#009989',
+    minSpotColor: '#f02020',
+    maxSpotColor: '#50f050'});
+
+
+	$(".sparkline1").sparkline([100,98,97,96,96,96,95,95,94,94,94,93,93,92,92,91,91,91,91,91,88,87,86,85,84,84,84,83,83 ], {
+    type: 'line',
+    width: '77',
+    lineColor: '#009899',
+    fillColor: '#eeeeee',
+    spotColor: '#009989',
+    minSpotColor: '#f02020',
+    maxSpotColor: '#50f050'});
+
+
+$(".sparkline2").sparkline([100,98,97,96,96 ], {
+    type: 'line',
+    width: '0',
+    lineColor: '#009899',
+    fillColor: '#eeeeee',
+    spotColor: '#009989',
+    minSpotColor: '#f02020',
+    maxSpotColor: '#50f050'});
+
+
+$(".sparkline3").sparkline([100,98,97,96,96,96,95,95,94,94,94,93,93,92,92,91,91,91,91,91,88,87,86,85,84,84,84,83,83 ], {
+    type: 'line',
+    width: '102',
+    lineColor: '#009899',
+    fillColor: '#eeeeee',
+    spotColor: '#009989',
+    minSpotColor: '#f02020',
+    maxSpotColor: '#50f050'});
+});
+
+</script>
+
+<style>
+.pin {
+  position: relative;
+}
+.pin-fill {
+  width: 0;
+  height: 0;
+  position: absolute;
+
+}
+.CIP{ transform-origin: 50% 50%;
+	transform: rotate(330deg); 
+font-size:400%;color:5f5f5f;}
+
+.progress {background: rgba(245, 245, 245, 1); border: 0px solid rgba(245, 245, 245, 1); border-radius: 4px; height: 20px;}
+.progress-bar-custom {background: rgba(66, 139, 202, 1);}
+</style>
